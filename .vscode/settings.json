@@ -1,0 +1,15 @@
+{
+    "editor.formatOnSaveMode": "modifications",
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[nix]": {
+        "editor.formatOnSaveMode": "file",
+    },
+    "clangd.arguments": [
+        "-header-insertion=never"
+    ]
+}

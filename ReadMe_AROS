@@ -1,0 +1,14 @@
+This is the AROS 64-bit porting of Homeworld.
+It uses SDL2 library and the AROS project is built using
+Code::Blocks 25. This fork fixes some issues that may occur in
+the original repository
+(https://github.com/HomeworldSDL/HomeworldSDL).
+
+Homeworld requires a copy of the data taken from an original
+installation on Windows platform. Four files (Homeworld.big,
+HW_Comp.vce, HW_Music.wxd and Update.big) and one folder (Movies)
+must be copied inside the folder of the game.
+
+Source code and additional information are available here
+https://github.com/sonountaleban/Homeworld
+

@@ -1,0 +1,5048 @@
+# depslib dependency file v1.0
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission01.c
+	"homeworld.p/Mission01.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission01.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIMoves.h
+	"AITeam.h"
+
+1794074094 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AITeam.h
+	"AIEvents.h"
+	"AIUtilities.h"
+	"AIVar.h"
+	"KAS.h"
+	"ShipDefs.h"
+	"ShipSelect.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIEvents.h
+	"ShipSelect.h"
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ShipSelect.h
+	"SpaceObj.h"
+
+1794074409 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/SpaceObj.h
+	"Color.h"
+	"ETG.h"
+	"Globals.h"
+	"LinkedList.h"
+	"LOD.h"
+	"Matrix.h"
+	"MaxMultiplayer.h"
+	"MeshAnim.h"
+	"Nebulae.h"
+	"ObjTypes.h"
+	"SoundStructs.h"
+	"Trails.h"
+	"Vector.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Color.h
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Types.h
+	<SDL2/SDL_stdinc.h>
+	<SDL2/SDL_endian.h>
+	<windows.h>
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ETG.h
+	"ClassDefs.h"
+	"Color.h"
+	"ObjTypes.h"
+	"Matrix.h"
+	"Mesh.h"
+	"RaceDefs.h"
+	"Vector.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ClassDefs.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ObjTypes.h
+	"RaceDefs.h"
+	"ShipDefs.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/RaceDefs.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/ShipDefs.h
+	"Types.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Matrix.h
+	"Types.h"
+	"Vector.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Vector.h
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Mesh.h
+	"Color.h"
+	"Matrix.h"
+	"texreg.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/texreg.h
+	"Color.h"
+	"CRC32.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/ThirdParty/CRC/CRC32.h
+	<stdint.h>
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Globals.h
+	"MaxMultiplayer.h"
+	"Queue.h"
+	"TitanInterfaceC.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/MaxMultiplayer.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/Queue.h
+	<SDL2/SDL.h>
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/TitanInterfaceC.h
+	<stdlib.h>
+	<wchar.h>
+
+1794074124 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/LinkedList.h
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/LOD.h
+	"Mesh.h"
+	"Vector.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/MeshAnim.h
+	"B-Spline.h"
+	"CRC32.h"
+	"Mesh.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/B-Spline.h
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Nebulae.h
+	"Clouds.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Clouds.h
+	"Color.h"
+	"Matrix.h"
+	"ObjTypes.h"
+	"Vector.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/SoundStructs.h
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Trails.h
+	"Color.h"
+	"MaxMultiplayer.h"
+	"Types.h"
+	"Vector.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIUtilities.h
+	"Blobs.h"
+	"ShipSelect.h"
+	"SpaceObj.h"
+	"Universe.h"
+	"Volume.h"
+
+1794074410 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Blobs.h
+	"Color.h"
+	"LinkedList.h"
+	"ShipSelect.h"
+	"Vector.h"
+
+1794074409 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Universe.h
+	"CameraCommand.h"
+	"CommandLayer.h"
+	"ConsMgr.h"
+	"GameStats.h"
+	"ResearchAPI.h"
+	"Star3d.h"
+	"Task.h"
+
+1794074409 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/CameraCommand.h
+	"Camera.h"
+	"ShipSelect.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Camera.h
+	"Vector.h"
+
+1794074410 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/CommandLayer.h
+	"Dock.h"
+	"Formation.h"
+	"ResCollect.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Dock.h
+	"render.h"
+	"ShipSelect.h"
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/render.h
+	"glinc.h"
+	"Camera.h"
+	"Color.h"
+	"Matrix.h"
+	"SpaceObj.h"
+	"Types.h"
+	"Task.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/glinc.h
+	<GLES/egl.h>
+	<GLES/glext.h>
+	<GL/glew.h>
+	<SDL2/SDL_opengl.h>
+	<SDL2/SDL_opengl.h>
+
+1794074410 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Task.h
+	<stdlib.h>
+	"LinkedList.h"
+	"Debug.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Debug.h
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Formation.h
+	"FormationDefs.h"
+	"ShipSelect.h"
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/FormationDefs.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ResCollect.h
+	"Attributes.h"
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Attributes.h
+
+1794074409 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ConsMgr.h
+	"ClassDefs.h"
+	"ObjTypes.h"
+	"Region.h"
+	"ShipDefs.h"
+	"SpaceObj.h"
+	"Task.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Region.h
+	"Memory.h"
+	"Debug.h"
+	"Key.h"
+	"prim2d.h"
+	"Task.h"
+
+1794074410 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Memory.h
+	"LinkedList.h"
+	"Task.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Key.h
+	<SDL2/SDL_scancode.h>
+	<SDL2/SDL_keycode.h>
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/prim2d.h
+	"Color.h"
+	"main.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/main.h
+	<SDL2/SDL.h>
+	"mainswitches.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/mainswitches.h
+	"MaxMultiplayer.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/GameStats.h
+
+1794074410 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ResearchAPI.h
+	"LinkedList.h"
+	"ObjTypes.h"
+	"ShipDefs.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Star3d.h
+	"Color.h"
+	"Types.h"
+	"Vector.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Volume.h
+	"Vector.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIVar.h
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/KAS.h
+	"AIUtilities.h"
+	"ShipSelect.h"
+	"Vector.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/CommandWrap.h
+	"CommandLayer.h"
+	"Globals.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/KASFunc.h
+	"AIUtilities.h"
+	"ShipSelect.h"
+	"Volume.h"
+
+1794074409 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Objectives.h
+	"FEFlow.h"
+	"LinkedList.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/FEFlow.h
+	<SDL2/SDL_scancode.h>
+	<SDL2/SDL_keycode.h>
+	"Color.h"
+	"Region.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Timer.h
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/TradeMgr.h
+	"FEFlow.h"
+	"Region.h"
+	"SpaceObj.h"
+	"Types.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission01.func.c
+	"homeworld.p/Mission01.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission02.c
+	"homeworld.p/Mission02.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission02.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission02.func.c
+	"homeworld.p/Mission02.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission03.c
+	"homeworld.p/Mission03.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission03.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission03.func.c
+	"homeworld.p/Mission03.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission04.c
+	"homeworld.p/Mission04.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission04.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission04.func.c
+	"homeworld.p/Mission04.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission05.c
+	"homeworld.p/Mission05.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission05.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission05.func.c
+	"homeworld.p/Mission05.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission05_OEM.c
+	"homeworld.p/Mission05_OEM.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission05_OEM.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission05_OEM.func.c
+	"homeworld.p/Mission05_OEM.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission06.c
+	"homeworld.p/Mission06.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission06.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission06.func.c
+	"homeworld.p/Mission06.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission07.c
+	"homeworld.p/Mission07.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission07.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission07.func.c
+	"homeworld.p/Mission07.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission08.c
+	"homeworld.p/Mission08.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission08.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission08.func.c
+	"homeworld.p/Mission08.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission09.c
+	"homeworld.p/Mission09.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission09.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission09.func.c
+	"homeworld.p/Mission09.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission10.c
+	"homeworld.p/Mission10.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission10.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission10.func.c
+	"homeworld.p/Mission10.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission11.c
+	"homeworld.p/Mission11.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission11.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission11.func.c
+	"homeworld.p/Mission11.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission12.c
+	"homeworld.p/Mission12.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission12.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission12.func.c
+	"homeworld.p/Mission12.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission13.c
+	"homeworld.p/Mission13.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission13.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission13.func.c
+	"homeworld.p/Mission13.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission14.c
+	"homeworld.p/Mission14.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission14.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission14.func.c
+	"homeworld.p/Mission14.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission15.c
+	"homeworld.p/Mission15.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission15.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission15.func.c
+	"homeworld.p/Mission15.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission16.c
+	"homeworld.p/Mission16.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission16.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Mission16.func.c
+	"homeworld.p/Mission16.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Tutorial1.c
+	"homeworld.p/Tutorial1.h"
+
+1793917090 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Tutorial1.h
+	<string.h>
+	"AIMoves.h"
+	"AITeam.h"
+	"Attributes.h"
+	"CommandWrap.h"
+	"KASFunc.h"
+	"Objectives.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Types.h"
+	"Vector.h"
+	"Volume.h"
+
+1793917090 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/build-cbp/homeworld.p/Tutorial1.func.c
+	"homeworld.p/Tutorial1.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIAttackMan.c
+	"AIAttackMan.h"
+	"AIFeatures.h"
+	"AIHandler.h"
+	"AIMoves.h"
+	"AIOrders.h"
+	"MultiplayerGame.h"
+	"Randy.h"
+	"Select.h"
+	"Stats.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIAttackMan.h
+	"AIPlayer.h"
+	"AITeam.h"
+
+1794074094 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIPlayer.h
+	"AITeam.h"
+	"AIVar.h"
+	"LinkedList.h"
+	"ShipDefs.h"
+	"ShipSelect.h"
+	"SpaceObj.h"
+	"Universe.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIFeatures.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIHandler.h
+	"AITeam.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIOrders.h
+	"AIUtilities.h"
+	"ShipSelect.h"
+
+1794074499 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/MultiplayerGame.h
+	"LinkedList.h"
+	"TitanInterfaceC.h"
+	"TimeoutTimer.h"
+	"UIControls.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/TimeoutTimer.h
+	"Types.h"
+
+1794074499 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/UIControls.h
+	"FEFlow.h"
+	"font.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/font.h
+	"Color.h"
+	"prim2d.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Randy.h
+	"Types.h"
+
+1794074530 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Select.h
+	"PiePlate.h"
+	"Camera.h"
+	"font.h"
+	"prim2d.h"
+	"ShipSelect.h"
+	"Types.h"
+	"Vector.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/PiePlate.h
+	"Color.h"
+	"SpaceObj.h"
+	"Types.h"
+	"Vector.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Stats.h
+	"ShipDefs.h"
+	"ShipSelect.h"
+	"StatScript.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/StatScript.h
+	"ObjTypes.h"
+	"Types.h"
+
+1794074094 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIDefenseMan.c
+	"AIDefenseMan.h"
+	"AIFeatures.h"
+	"AIFleetMan.h"
+	"AIHandler.h"
+	"AIMoves.h"
+	"AIOrders.h"
+	"Randy.h"
+	"Select.h"
+	"Stats.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIDefenseMan.h
+	"AIPlayer.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIFleetMan.h
+	"AIPlayer.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIEvents.c
+	"AIEvents.h"
+	"AIPlayer.h"
+
+1794074094 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIFleetMan.c
+	"AIFleetMan.h"
+	"AIAttackMan.h"
+	"AIDefenseMan.h"
+	"AIFeatures.h"
+	"Alliance.h"
+	"AIResourceMan.h"
+	"CommandWrap.h"
+	"MultiplayerGame.h"
+	"Randy.h"
+	"SinglePlayer.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Alliance.h
+	"CommandNetwork.h"
+	"Types.h"
+	"Universe.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/CommandNetwork.h
+	"Captaincy.h"
+	"Chatting.h"
+	"CommandLayer.h"
+	"Globals.h"
+	"MaxMultiplayer.h"
+	"SpaceObj.h"
+	"Switches.h"
+	"Task.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Captaincy.h
+	"MaxMultiplayer.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Chatting.h
+	"Types.h"
+
+1794612654 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Switches.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIResourceMan.h
+	"AIPlayer.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/SinglePlayer.h
+	"KAS.h"
+	"LinkedList.h"
+	"Types.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIHandler.c
+	"AIHandler.h"
+	"AIFeatures.h"
+	"AIMoves.h"
+	"AIOrders.h"
+	"AIPlayer.h"
+	"GravWellGenerator.h"
+	"Randy.h"
+	"Select.h"
+	"UnivUpdate.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/GravWellGenerator.h
+	"LinkedList.h"
+	"SpaceObj.h"
+	"Types.h"
+
+1794074558 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/UnivUpdate.h
+	"LinkedList.h"
+	"ShipSelect.h"
+	"SpaceObj.h"
+	"Types.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIMoves.c
+	"AIMoves.h"
+	"AIFeatures.h"
+	"AIFleetMan.h"
+	"AIHandler.h"
+	"AIPlayer.h"
+	"AIUtilities.h"
+	"CommandDefs.h"
+	"CommandWrap.h"
+	"FastMath.h"
+	"Randy.h"
+	"SalCapCorvette.h"
+	"SaveGame.h"
+	"Select.h"
+	"SinglePlayer.h"
+	"Tutor.h"
+	"UnivUpdate.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/CommandDefs.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/FastMath.h
+	"Types.h"
+	<math.h>
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/SalCapCorvette.h
+	"Attack.h"
+	"ShipSelect.h"
+	"render.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Attack.h
+	"SpaceObj.h"
+	"StatScript.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/SaveGame.h
+	"ShipSelect.h"
+	"SpaceObj.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Tutor.h
+	"FEFlow.h"
+	"prim2d.h"
+	"ShipDefs.h"
+	"ShipSelect.h"
+	"SpaceObj.h"
+	"Types.h"
+	"Volume.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIOrders.c
+	"AIOrders.h"
+	"AIEvents.h"
+	"AIHandler.h"
+	"AIMoves.h"
+	"AIPlayer.h"
+	"AIVar.h"
+	"GravWellGenerator.h"
+	"Randy.h"
+	"Select.h"
+	"Stats.h"
+
+1794074094 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIPlayer.c
+	"AIPlayer.h"
+	"AIAttackMan.h"
+	"AIDefenseMan.h"
+	"AIFleetMan.h"
+	"AIResourceMan.h"
+	"File.h"
+	"NIS.h"
+	"Randy.h"
+	"SaveGame.h"
+	"SinglePlayer.h"
+	"Stats.h"
+	"Tweak.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/File.h
+	<stdio.h>
+	<limits.h>
+	<sys/syslimits.h>
+	"BigFile.h"
+	"win32_vc.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/BigFile.h
+	"CRC32.h"
+	"standard_library.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/standard_library.h
+	<stdarg.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<malloc/malloc.h>
+	<stdlib.h>
+	<windows.h>
+	<direct.h>
+	<windows.h>
+	<direct.h>
+	<io.h>
+	<sys/stat.h>
+	<dirent.h>
+	<unistd.h>
+	<windows.h>
+	<sys/time.h>
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/win32_vc.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/NIS.h
+	"B-Spline.h"
+	"Camera.h"
+	"font.h"
+	"Key.h"
+	"ShipDefs.h"
+	"ShipSelect.h"
+	"SpaceObj.h"
+	"StatScript.h"
+	"Task.h"
+	"texreg.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Tweak.h
+	"ClassDefs.h"
+	"Color.h"
+	"ObjTypes.h"
+	"Types.h"
+
+1794074094 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIResourceMan.c
+	"AIResourceMan.h"
+	"AIDefenseMan.h"
+	"AIFeatures.h"
+	"AIFleetMan.h"
+	"AIOrders.h"
+	"MultiplayerGame.h"
+	"Randy.h"
+	"Select.h"
+	"StatScript.h"
+	"UnivUpdate.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIShip.c
+	"AIShip.h"
+	"AITrack.h"
+	"Alliance.h"
+	"Blobs.h"
+	"Collision.h"
+	"CommandDefs.h"
+	"FlightManDefs.h"
+	"FormationDefs.h"
+	"FastMath.h"
+	"Physics.h"
+	"ProfileTimers.h"
+	"Randy.h"
+	"Ships.h"
+	"Tactics.h"
+	"Tweak.h"
+	"Universe.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIShip.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AITrack.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Collision.h
+	"Blobs.h"
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/FlightManDefs.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Physics.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ProfileTimers.h
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/Ships.h
+	"AdvanceSupportFrigate.h"
+	"Carrier.h"
+	"CloakGenerator.h"
+	"DDDFrigate.h"
+	"DFGFrigate.h"
+	"DefaultShip.h"
+	"DefenseFighter.h"
+	"Drone.h"
+	"FloatingCity.h"
+	"GenericDefender.h"
+	"GenericInterceptor.h"
+	"GravWellGenerator.h"
+	"HeavyCorvette.h"
+	"HeavyCruiser.h"
+	"IonCannonFrigate.h"
+	"LightCorvette.h"
+	"MinelayerCorvette.h"
+	"MissileDestroyer.h"
+	"Mothership.h"
+	"MultiGunCorvette.h"
+	"P1IonArrayFrigate.h"
+	"P1MissileCorvette.h"
+	"P1Mothership.h"
+	"P1StandardCorvette.h"
+	"P2AdvanceSwarmer.h"
+	"P2FuelPod.h"
+	"P2Mothership.h"
+	"P2MultiBeamFrigate.h"
+	"P2Swarmer.h"
+	"P3StandardShip.h"
+	"Probe.h"
+	"ProximitySensor.h"
+	"RepairCorvette.h"
+	"ResearchShip.h"
+	"ResourceCollector.h"
+	"ResourceController.h"
+	"SalCapCorvette.h"
+	"SensorArray.h"
+	"StandardDestroyer.h"
+	"StandardFrigate.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/AdvanceSupportFrigate.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/Carrier.h
+	"SpaceObj.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/CloakGenerator.h
+	"LinkedList.h"
+	"SpaceObj.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/DDDFrigate.h
+	"SpaceObj.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/DFGFrigate.h
+	"SpaceObj.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/DefaultShip.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/DefenseFighter.h
+	"FlightMan.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/FlightMan.h
+	"FlightManDefs.h"
+	"ObjTypes.h"
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/Drone.h
+	"SpaceObj.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/FloatingCity.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/GenericDefender.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/GenericInterceptor.h
+	"ClassDefs.h"
+	"FlightMan.h"
+	"ObjTypes.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/HeavyCorvette.h
+	"Attack.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/HeavyCruiser.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/IonCannonFrigate.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/LightCorvette.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/MinelayerCorvette.h
+	"Attack.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/MissileDestroyer.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/Mothership.h
+	"SpaceObj.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/MultiGunCorvette.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P1IonArrayFrigate.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P1MissileCorvette.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P1Mothership.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P1StandardCorvette.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P2AdvanceSwarmer.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P2FuelPod.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P2Mothership.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P2MultiBeamFrigate.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P2Swarmer.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P3StandardShip.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/Probe.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/ProximitySensor.h
+	"ShipSelect.h"
+	"SpaceObj.h"
+	"Universe.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/RepairCorvette.h
+	"Attack.h"
+	"ShipSelect.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/ResearchShip.h
+	"SpaceObj.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/ResourceCollector.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/ResourceController.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/SensorArray.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/StandardDestroyer.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/StandardFrigate.h
+	"SpaceObj.h"
+
+1794074570 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Tactics.h
+	"ClassDefs.h"
+	"CommandLayer.h"
+	"Region.h"
+	"SpaceObj.h"
+	"Task.h"
+	"Vector.h"
+
+1794074094 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AITeam.c
+	"AITeam.h"
+	"AIFeatures.h"
+	"AIFleetMan.h"
+	"AIHandler.h"
+	"AIMoves.h"
+	"AIPlayer.h"
+	"CommandDefs.h"
+	"GravWellGenerator.h"
+	"SaveGame.h"
+	"Select.h"
+	"Tactics.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AITrack.c
+	"AITrack.h"
+	"Gun.h"
+	"AIShip.h"
+	"FastMath.h"
+	"Physics.h"
+	"StatScript.h"
+	"Universe.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Gun.h
+	"SpaceObj.h"
+	"render.h"
+
+1794074793 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIUtilities.c
+	"AIUtilities.h"
+	"AIFeatures.h"
+	"AIHandler.h"
+	"AIMoves.h"
+	"AIPlayer.h"
+	"AIShip.h"
+	"Alliance.h"
+	"Collision.h"
+	"CommandDefs.h"
+	"CommandWrap.h"
+	"FastMath.h"
+	"Randy.h"
+	"Select.h"
+	"Ships.h"
+	"Stats.h"
+	"Tactics.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AIVar.c
+	"AIVar.h"
+	"Debug.h"
+	"Memory.h"
+	"SaveGame.h"
+
+1795267614 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Alliance.c
+	"Alliance.h"
+	"CommandDefs.h"
+	"CommandWrap.h"
+	"GameChat.h"
+	"SoundEvent.h"
+	"SpeechEvent.h"
+	"StringsOnly.h"
+
+1794074592 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/GameChat.h
+	"MultiplayerGame.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/SoundEvent.h
+	"SoundEventDefs.h"
+	"SoundMusic.h"
+	"SoundStructs.h"
+	"SpaceObj.h"
+	"SpeechEvent.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/SoundEventDefs.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/SoundMusic.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/SpeechEvent.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/StringsOnly.h
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Animatic.c
+	"Animatic.h"
+	"avi.h"
+	"File.h"
+	"glinc.h"
+	"mouse.h"
+	"NIS.h"
+	"rglu.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"soundlow.h"
+	"StringSupport.h"
+	"Subtitle.h"
+	"Universe.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Animatic.h
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/avi.h
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/mouse.h
+	"prim2d.h"
+	"ShipSelect.h"
+	"SpaceObj.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/rglu.h
+	"glinc.h"
+
+1794687999 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/soundlow.h
+	"fqeffect.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/fqeffect.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/StringSupport.h
+	"StringsOnly.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Subtitle.h
+	"Color.h"
+	"font.h"
+	"texreg.h"
+	"Types.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Attack.c
+	"Attack.h"
+	"AIShip.h"
+	"AITrack.h"
+	"Collision.h"
+	"CommandDefs.h"
+	"CommandLayer.h"
+	"Debug.h"
+	"FastMath.h"
+	"Gun.h"
+	"Physics.h"
+	"Randy.h"
+	"Tweak.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AutoDownloadMap.c
+	"AutoDownloadMap.h"
+	"Debug.h"
+	"File.h"
+	"Globals.h"
+	"HorseRace.h"
+	"Memory.h"
+	"standard_library.h"
+	"StringsOnly.h"
+	"Titan.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AutoDownloadMap.h
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/HorseRace.h
+	"CommandNetwork.h"
+	"MaxMultiplayer.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/Titan.h
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AutoLOD.c
+	"AutoLOD.h"
+	"glinc.h"
+	"LOD.h"
+	"Options.h"
+	"StatScript.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/AutoLOD.h
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Options.h
+	"Key.h"
+	"Region.h"
+	"Types.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/B-Spline.c
+	"B-Spline.h"
+	"Debug.h"
+	"Memory.h"
+	"Vector.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Battle.c
+	"Battle.h"
+	"Alliance.h"
+	"CommandDefs.h"
+	"FastMath.h"
+	"Gun.h"
+	"mainrgn.h"
+	"Ping.h"
+	"Randy.h"
+	"Select.h"
+	"SoundEvent.h"
+	"StatScript.h"
+	"Universe.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Battle.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/mainrgn.h
+	"Camera.h"
+	"FEFlow.h"
+	"SpaceObj.h"
+	"Types.h"
+
+1794074730 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Ping.h
+	"Blobs.h"
+	"Camera.h"
+	"prim2d.h"
+	"ShipSelect.h"
+
+1794014591 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/BigFile.c
+	"fnmatch.h"
+	<fnmatch.h>
+	<sys/stat.h>
+	"BigFile.h"
+	"BitIO.h"
+	"LZSS.h"
+	"standard_library.h"
+	<strings.h>
+	"Memory.h"
+	"Debug.h"
+	"File.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/ThirdParty/LZSS/BitIO.h
+	<stdio.h>
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/ThirdParty/LZSS/LZSS.h
+	<stdio.h>
+	"BitIO.h"
+
+1794074730 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Blobs.c
+	"Blobs.h"
+	"Alliance.h"
+	"Battle.h"
+	"Debug.h"
+	"FastMath.h"
+	"Memory.h"
+	"GravWellGenerator.h"
+	"Sensors.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"Universe.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Sensors.h
+	"FEFlow.h"
+	"Matrix.h"
+	"ShipDefs.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/BMP.c
+	"BMP.h"
+	"Debug.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/BMP.h
+	"Color.h"
+	"File.h"
+
+1794074635 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Bounties.c
+	"Bounties.h"
+	"MultiplayerGame.h"
+	"Tweak.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Bounties.h
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/BTG.c
+	"BTG.h"
+	"Camera.h"
+	"Clipper.h"
+	"Debug.h"
+	"FastMath.h"
+	"File.h"
+	"glinc.h"
+	"main.h"
+	"mainrgn.h"
+	"Memory.h"
+	"render.h"
+	"rglu.h"
+	"texreg.h"
+	"Universe.h"
+	"Vector.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/BTG.h
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Clipper.h
+	"Vector.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Camera.c
+	"Camera.h"
+	"FastMath.h"
+	"Key.h"
+	"render.h"
+	"StatScript.h"
+	"Universe.h"
+
+1794074793 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/CameraCommand.c
+	"CameraCommand.h"
+	"Alliance.h"
+	"FastMath.h"
+	"Select.h"
+	"Sensors.h"
+	"Ships.h"
+	"SinglePlayer.h"
+	"StatScript.h"
+	"Tutor.h"
+	"Tweak.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Captaincy.c
+	"Captaincy.h"
+	"CommandNetwork.h"
+	"CommandWrap.h"
+	"Debug.h"
+	"File.h"
+	"Memory.h"
+	"standard_library.h"
+	"utility.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/utility.h
+	"FEFlow.h"
+	"ObjTypes.h"
+	"Region.h"
+	"TitanInterfaceC.h"
+	"Types.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ChannelFSM.c
+	"ChannelFSM.h"
+	"MultiplayerGame.h"
+	"ServerStatus.h"
+	"StringSupport.h"
+	"TitanInterfaceC.h"
+	"TitanNet.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ChannelFSM.h
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/ThirdParty/Titan/ServerStatus.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/TitanNet.h
+	"TitanInterfaceC.h"
+	"Types.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Chatting.c
+	"Chatting.h"
+	"Alliance.h"
+	"CommandNetwork.h"
+	"Debug.h"
+	"GameChat.h"
+	"HorseRace.h"
+	"MultiplayerGame.h"
+	"MultiplayerLANGame.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/MultiplayerLANGame.h
+	"MultiplayerGame.h"
+	"TitanInterfaceC.h"
+	"Types.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Clamp.c
+	"Clamp.h"
+	"Debug.h"
+	"Memory.h"
+	"Physics.h"
+	"Universe.h"
+	"UnivUpdate.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Clamp.h
+	"SpaceObj.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Clipper.c
+	"Clipper.h"
+	"glinc.h"
+
+1794074793 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Clouds.c
+	"Clouds.h"
+	"AutoLOD.h"
+	"Clipper.h"
+	"FastMath.h"
+	"glinc.h"
+	"mainrgn.h"
+	"Memory.h"
+	"Randy.h"
+	"render.h"
+	"Shader.h"
+	"SpaceObj.h"
+	"StatScript.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	"win32_vc.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Shader.h
+	"Color.h"
+	"Matrix.h"
+	"Types.h"
+	"Vector.h"
+
+1794074793 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Collision.c
+	"Collision.h"
+	"Alliance.h"
+	"Debug.h"
+	"FastMath.h"
+	"NIS.h"
+	"prim3d.h"
+	"Ships.h"
+	"SinglePlayer.h"
+	"Tactics.h"
+	"Universe.h"
+	"UnivUpdate.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/prim3d.h
+	"Color.h"
+	"texreg.h"
+	"Types.h"
+	"Vector.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Color.c
+	<math.h>
+	"Color.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ColPick.c
+	"ColPick.h"
+	"FastMath.h"
+	"font.h"
+	"FontReg.h"
+	"mainrgn.h"
+	"Memory.h"
+	"mouse.h"
+	"prim2d.h"
+	"Region.h"
+	"render.h"
+	"StatScript.h"
+	"Teams.h"
+	"utility.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ColPick.h
+	"Color.h"
+	"ObjTypes.h"
+	"texreg.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/FontReg.h
+	"font.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Teams.h
+	"Color.h"
+	"MaxMultiplayer.h"
+	"texreg.h"
+	"Types.h"
+
+1794075264 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/CommandLayer.c
+	"CommandLayer.h"
+	"AIPlayer.h"
+	"AIShip.h"
+	"AITrack.h"
+	"Alliance.h"
+	"Battle.h"
+	"Collision.h"
+	"CommandDefs.h"
+	"CommandNetwork.h"
+	"FastMath.h"
+	"MadLinkIn.h"
+	"Memory.h"
+	"NetCheck.h"
+	"Ping.h"
+	"Randy.h"
+	"Select.h"
+	"Ships.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"SpeechEvent.h"
+	"StatScript.h"
+	"Tactics.h"
+	"Tutor.h"
+	"Tweak.h"
+	"Universe.h"
+	"UnivUpdate.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/MadLinkIn.h
+	"CommandLayer.h"
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/NetCheck.h
+	"CommandNetwork.h"
+	"Switches.h"
+	"Types.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/CommandNetwork.c
+	"CommandNetwork.h"
+	"AutoDownloadMap.h"
+	"HorseRace.h"
+	"LagPrint.h"
+	"MultiplayerGame.h"
+	"NetCheck.h"
+	"Sensors.h"
+	"TimeoutTimer.h"
+	"Titan.h"
+	"TitanNet.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	"utility.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/LagPrint.h
+	"Types.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/CommandWrap.c
+	"CommandWrap.h"
+	"CommandDefs.h"
+	"CommandNetwork.h"
+	"InfoOverlay.h"
+	"MultiplayerGame.h"
+	"Options.h"
+	"Select.h"
+	"Ships.h"
+	"SoundEvent.h"
+	"SpeechEvent.h"
+	"Tutor.h"
+	"Tweak.h"
+	"Universe.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/InfoOverlay.h
+	"Region.h"
+	"SpaceObj.h"
+
+1794074900 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ConsMgr.c
+	"ConsMgr.h"
+	"CommandLayer.h"
+	"CommandWrap.h"
+	"FEColour.h"
+	"FEFlow.h"
+	"FEReg.h"
+	"font.h"
+	"FontReg.h"
+	"glinc.h"
+	"InfoOverlay.h"
+	"mainrgn.h"
+	"mouse.h"
+	"MultiplayerGame.h"
+	"Options.h"
+	"PiePlate.h"
+	"Ping.h"
+	"Randy.h"
+	"SaveGame.h"
+	"Scroller.h"
+	"Sensors.h"
+	"ShipView.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"StringSupport.h"
+	"TaskBar.h"
+	"Tutor.h"
+	"Tweak.h"
+	"Universe.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/FEColour.h
+
+1794074815 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/FEReg.h
+	"LinkedList.h"
+	"prim2d.h"
+	"Region.h"
+	"texreg.h"
+	"UIControls.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Scroller.h
+	"UIControls.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ShipView.h
+	"FEFlow.h"
+	"Region.h"
+	"ShipDefs.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/TaskBar.h
+	"Region.h"
+	"Types.h"
+
+1794074900 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Crates.c
+	"Crates.h"
+	"AITrack.h"
+	"Blobs.h"
+	"LevelLoad.h"
+	"MultiplayerGame.h"
+	"PiePlate.h"
+	"Randy.h"
+	"Sensors.h"
+	"SoundEvent.h"
+	"StatScript.h"
+	"Universe.h"
+	"UnivUpdate.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Crates.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/LevelLoad.h
+	"ObjTypes.h"
+	"ShipDefs.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Damage.c
+	<math.h>
+	<string.h>
+	"glinc.h"
+	"Trails.h"
+	"UnivUpdate.h"
+	"Damage.h"
+	"StatScript.h"
+	"Debug.h"
+	"MEX.h"
+	"Memory.h"
+	"Randy.h"
+	"SinglePlayer.h"
+	"ETG.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Damage.h
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/MEX.h
+	"SpaceObj.h"
+	"Vector.h"
+
+1795350011 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Debug.c
+	"Debug.h"
+	"File.h"
+	"utility.h"
+	<stdarg.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Demo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"File.h"
+	"Memory.h"
+	"Debug.h"
+	"Region.h"
+	"mouse.h"
+	"UnivUpdate.h"
+	"Camera.h"
+	"mainrgn.h"
+	"Select.h"
+	"render.h"
+	"NetCheck.h"
+	"Demo.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Demo.h
+	"Key.h"
+	"Randy.h"
+	"Task.h"
+
+1795289183 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Dock.c
+	"Dock.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	"AIShip.h"
+	"AITrack.h"
+	"AIVar.h"
+	"Alliance.h"
+	"Battle.h"
+	"Clamp.h"
+	"Collision.h"
+	"CommandDefs.h"
+	"CommandLayer.h"
+	"DDDFrigate.h"
+	"Debug.h"
+	"Drone.h"
+	"FastMath.h"
+	"LaunchMgr.h"
+	"LinkedList.h"
+	"MadLinkIn.h"
+	"MadLinkInDefs.h"
+	"Memory.h"
+	"Mothership.h"
+	"ObjTypes.h"
+	"Physics.h"
+	"prim3d.h"
+	"Randy.h"
+	"ResearchShip.h"
+	"SalCapCorvette.h"
+	"Select.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"SpeechEvent.h"
+	"Tactics.h"
+	"Tutor.h"
+	"Tweak.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	"Vector.h"
+	<strings.h>
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/LaunchMgr.h
+	"Region.h"
+	"SpaceObj.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/MadLinkInDefs.h
+
+1794074990 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ETG.c
+	"ETG.h"
+	<math.h>
+	<string.h>
+	<stdarg.h>
+	"Battle.h"
+	"BTG.h"
+	"Color.h"
+	"Damage.h"
+	"Debug.h"
+	"Eval.h"
+	"FastMath.h"
+	"File.h"
+	"glinc.h"
+	"HorseRace.h"
+	"mainrgn.h"
+	"Memory.h"
+	"Mesh.h"
+	"MEX.h"
+	"Particle.h"
+	"Randy.h"
+	"render.h"
+	"Select.h"
+	"SoundEvent.h"
+	"StatScript.h"
+	"Task.h"
+	"texreg.h"
+	"Tweak.h"
+	"Types.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	"utility.h"
+	"functions.h"
+	"wrapped_unlisted_functions.h"
+	<windows.h>
+	<strings.h>
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Eval.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Particle.h
+	"Color.h"
+	"Mesh.h"
+	"SpaceObj.h"
+	"texreg.h"
+	"Types.h"
+	"Vector.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/functions.h
+	"wrap_types.h"
+	"wrap.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/wrap_types.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/wrap.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/wrapped_unlisted_functions.h
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Eval.c
+	<stdio.h>
+	<math.h>
+	<ctype.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"Types.h"
+	"Randy.h"
+	"Eval.h"
+
+1794074990 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/FEFlow.c
+	"FEFlow.h"
+	"Debug.h"
+	"FEReg.h"
+	"File.h"
+	"font.h"
+	"FontReg.h"
+	"glinc.h"
+	"Globals.h"
+	"main.h"
+	"mainrgn.h"
+	"Memory.h"
+	"mouse.h"
+	"NIS.h"
+	"prim2d.h"
+	"Scroller.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"StringSupport.h"
+	"Tactics.h"
+	"Tutor.h"
+	"UIControls.h"
+	"utility.h"
+	<windows.h>
+
+1794074990 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/FEReg.c
+	"FEReg.h"
+	<string.h>
+	"Color.h"
+	"Debug.h"
+	"glinc.h"
+	"HorseRace.h"
+	"main.h"
+	"Memory.h"
+	"prim2d.h"
+	"render.h"
+
+1794098937 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/File.c
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<sys/stat.h>
+	<sys/types.h>
+	"BitIO.h"
+	"Debug.h"
+	"File.h"
+	"LZSS.h"
+	"Memory.h"
+	<windows.h>
+	<direct.h>
+	<dirent.h>
+	<ctype.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/FlightMan.c
+	"FlightMan.h"
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"AIShip.h"
+	"AITrack.h"
+	"Debug.h"
+	"FastMath.h"
+	"Memory.h"
+	"Physics.h"
+	"Randy.h"
+	"SoundEvent.h"
+	"StatScript.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/FontReg.c
+	<string.h>
+	"Debug.h"
+	"Memory.h"
+	"FontReg.h"
+	"StringSupport.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Formation.c
+	"Formation.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"AIShip.h"
+	"AITrack.h"
+	"CommandDefs.h"
+	"CommandLayer.h"
+	"DDDFrigate.h"
+	"Debug.h"
+	"FastMath.h"
+	"Globals.h"
+	"Memory.h"
+	"ProximitySensor.h"
+	"SalCapCorvette.h"
+	"SinglePlayer.h"
+	"StatScript.h"
+	"StringSupport.h"
+	"Tactics.h"
+	"Tweak.h"
+	"Universe.h"
+	"UnivUpdate.h"
+
+1794075067 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/GameChat.c
+	<stdio.h>
+	<stdlib.h>
+	"Chatting.h"
+	"CommandNetwork.h"
+	"CommandWrap.h"
+	"Debug.h"
+	"FontReg.h"
+	"GameChat.h"
+	"LinkedList.h"
+	"mainrgn.h"
+	"Memory.h"
+	"Region.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"StringSupport.h"
+	"UIControls.h"
+	"Universe.h"
+	"utility.h"
+	<windows.h>
+	<strings.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/GamePick.c
+	"GamePick.h"
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"CommandDefs.h"
+	"CommandWrap.h"
+	"Debug.h"
+	"FEColour.h"
+	"File.h"
+	"font.h"
+	"FontReg.h"
+	"Globals.h"
+	"mainrgn.h"
+	"mainswitches.h"
+	"Memory.h"
+	"MultiplayerGame.h"
+	"NetCheck.h"
+	"prim2d.h"
+	"SaveGame.h"
+	"Scroller.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"StringsOnly.h"
+	"Universe.h"
+	"utility.h"
+	<windows.h>
+	<io.h>
+	<dirent.h>
+	<strings.h>
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/GamePick.h
+	"FEFlow.h"
+	"Region.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Globals.c
+	"Globals.h"
+	"mainswitches.h"
+	"Universe.h"
+	"AIPlayer.h"
+	"CommandNetwork.h"
+	"NetCheck.h"
+	"MultiplayerGame.h"
+	"ProfileTimers.h"
+	"mainrgn.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Gun.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"AIShip.h"
+	"Collision.h"
+	"CommandDefs.h"
+	"Debug.h"
+	"ETG.h"
+	"FastMath.h"
+	"glinc.h"
+	"Globals.h"
+	"Gun.h"
+	"LinkedList.h"
+	"MadLinkIn.h"
+	"MadLinkInDefs.h"
+	"mainrgn.h"
+	"Matrix.h"
+	"Memory.h"
+	"MEX.h"
+	"NIS.h"
+	"Options.h"
+	"Physics.h"
+	"prim3d.h"
+	"Randy.h"
+	"render.h"
+	"Ships.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"Tactics.h"
+	"Tweak.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	"Vector.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Hash.c
+	"Hash.h"
+	"Debug.h"
+	"Memory.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Hash.h
+	"Types.h"
+
+1795350011 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/HorseRace.c
+	<SDL2/SDL.h>
+	"stb_image.h"
+	"HorseRace.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"AutoDownloadMap.h"
+	"Chatting.h"
+	"CommandNetwork.h"
+	"Debug.h"
+	"Demo.h"
+	"ETG.h"
+	"FEFlow.h"
+	"FEReg.h"
+	"File.h"
+	"font.h"
+	"FontReg.h"
+	"glinc.h"
+	"LinkedList.h"
+	"main.h"
+	"Memory.h"
+	"mouse.h"
+	"MultiplayerGame.h"
+	"NIS.h"
+	"prim2d.h"
+	"Region.h"
+	"render.h"
+	"SinglePlayer.h"
+	"StringSupport.h"
+	"Task.h"
+	"Teams.h"
+	"texreg.h"
+	"TimeoutTimer.h"
+	"Titan.h"
+	"Tweak.h"
+	"UIControls.h"
+	"Universe.h"
+	"utility.h"
+	<direct.h>
+	<io.h>
+	<windows.h>
+	<dirent.h>
+	<unistd.h>
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/ThirdParty/stb/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/HS.c
+	<ctype.h>
+	<math.h>
+	"AIVar.h"
+	"Damage.h"
+	"Debug.h"
+	"FEReg.h"
+	"glinc.h"
+	"Globals.h"
+	"GravWellGenerator.h"
+	"HS.h"
+	"Matrix.h"
+	"Memory.h"
+	"Particle.h"
+	"prim3d.h"
+	"render.h"
+	"SaveGame.h"
+	"SinglePlayer.h"
+	"UnivUpdate.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/HS.h
+	"SpaceObj.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/InfoOverlay.c
+	"InfoOverlay.h"
+	<stdio.h>
+	"FontReg.h"
+	"Globals.h"
+	"Key.h"
+	"Select.h"
+	"StatScript.h"
+	"StringSupport.h"
+	"Task.h"
+	"Tutor.h"
+	"utility.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/KAS.c
+	"KAS.h"
+	<stdio.h>
+	<string.h>
+	"AIPlayer.h"
+	"AITeam.h"
+	"AIVar.h"
+	"CommandWrap.h"
+	"Debug.h"
+	"File.h"
+	"font.h"
+	"glinc.h"
+	"HS.h"
+	"main.h"
+	"mainrgn.h"
+	"Memory.h"
+	"Objectives.h"
+	"prim3d.h"
+	"render.h"
+	"rglu.h"
+	"SaveGame.h"
+	"Select.h"
+	"SinglePlayer.h"
+	"Timer.h"
+	<strings.h>
+
+1794075450 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/KASFunc.c
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"AIFeatures.h"
+	"AIMoves.h"
+	"AIPlayer.h"
+	"AITeam.h"
+	"AITrack.h"
+	"AIVar.h"
+	"Animatic.h"
+	"BTG.h"
+	"Collision.h"
+	"CommandDefs.h"
+	"CommandWrap.h"
+	"ConsMgr.h"
+	"DDDFrigate.h"
+	"Debug.h"
+	"FastMath.h"
+	"font.h"
+	"FormationDefs.h"
+	"HS.h"
+	"KAS.h"
+	"KASFunc.h"
+	"mainrgn.h"
+	"Memory.h"
+	"NIS.h"
+	"Objectives.h"
+	"PiePlate.h"
+	"Ping.h"
+	"prim2d.h"
+	"Randy.h"
+	"render.h"
+	"SalCapCorvette.h"
+	"SaveGame.h"
+	"Select.h"
+	"Sensors.h"
+	"ShipSelect.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"SpeechEvent.h"
+	"StringsOnly.h"
+	"Subtitle.h"
+	"TaskBar.h"
+	"texreg.h"
+	"Timer.h"
+	"TradeMgr.h"
+	"Tutor.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	"utility.h"
+	"Vector.h"
+	<strings.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Key.c
+	<stdio.h>
+	<string.h>
+	"Debug.h"
+	"Demo.h"
+	"Task.h"
+	"Key.h"
+	"Options.h"
+	"ConsMgr.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/KeyBindings.c
+	"KeyBindings.h"
+	"Debug.h"
+	"FEColour.h"
+	"FontReg.h"
+	"Globals.h"
+	"StringsOnly.h"
+	"StringSupport.h"
+	"Types.h"
+	"UIControls.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/KeyBindings.h
+	"FEFlow.h"
+	"font.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/LagPrint.c
+	"LagPrint.h"
+	"CommandNetwork.h"
+	"Debug.h"
+	"FEReg.h"
+	"texreg.h"
+	"Types.h"
+
+1794075264 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/LaunchMgr.c
+	<stdio.h>
+	"CommandLayer.h"
+	"CommandWrap.h"
+	"Debug.h"
+	"FEColour.h"
+	"FEFlow.h"
+	"FEReg.h"
+	"font.h"
+	"FontReg.h"
+	"Globals.h"
+	"InfoOverlay.h"
+	"LaunchMgr.h"
+	"LinkedList.h"
+	"mainrgn.h"
+	"Memory.h"
+	"mouse.h"
+	"ObjTypes.h"
+	"Options.h"
+	"PiePlate.h"
+	"prim2d.h"
+	"Randy.h"
+	"render.h"
+	"Scroller.h"
+	"ShipDefs.h"
+	"ShipView.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"SpeechEvent.h"
+	"StringsOnly.h"
+	"Task.h"
+	"TaskBar.h"
+	"texreg.h"
+	"Tutor.h"
+	"UIControls.h"
+	"Universe.h"
+
+1794075264 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/LevelLoad.c
+	"LevelLoad.h"
+	<ctype.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"AIPlayer.h"
+	"AITeam.h"
+	"Attributes.h"
+	"BTG.h"
+	"CommandLayer.h"
+	"Debug.h"
+	"FastMath.h"
+	"File.h"
+	"Globals.h"
+	"KAS.h"
+	"Light.h"
+	"mainrgn.h"
+	"Memory.h"
+	"MultiplayerGame.h"
+	"Nebulae.h"
+	"Ping.h"
+	"Randy.h"
+	"ResearchAPI.h"
+	"ResearchShip.h"
+	"ScenPick.h"
+	"Sensors.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"SpaceObj.h"
+	"StatScript.h"
+	"Teams.h"
+	"Tweak.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	"Vector.h"
+	<strings.h>
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Light.h
+	"Types.h"
+	"Vector.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ScenPick.h
+	"FEFlow.h"
+	"Types.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Light.c
+	"glinc.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"Debug.h"
+	"StatScript.h"
+	"Globals.h"
+	"Vector.h"
+	"Light.h"
+	"File.h"
+	"Memory.h"
+	"MEX.h"
+	"FastMath.h"
+	"Shader.h"
+
+1794075477 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/LinkedList.c
+	"LinkedList.h"
+	"Debug.h"
+	"Memory.h"
+	"SpaceObj.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/LOD.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"StatScript.h"
+	"Memory.h"
+	"SpaceObj.h"
+	"Debug.h"
+	"File.h"
+	"Key.h"
+	"texreg.h"
+	"LOD.h"
+	"Options.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/MadLinkIn.c
+	"MadLinkIn.h"
+	<stdlib.h>
+	"Debug.h"
+	"MadLinkInDefs.h"
+	"Mothership.h"
+	"Randy.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"SpaceObj.h"
+	"Types.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Matrix.c
+	"Matrix.h"
+	<stdio.h>
+	"Vector.h"
+
+1794075477 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Memory.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Types.h"
+	"Debug.h"
+	"Key.h"
+	"File.h"
+	"Memory.h"
+	<time.h>
+	"CRC32.h"
+	"Randy.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Mesh.c
+	<windows.h>
+	"glinc.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<strings.h>
+	<ctype.h>
+	"Debug.h"
+	"File.h"
+	"Memory.h"
+	"Vector.h"
+	"texreg.h"
+	"render.h"
+	"utility.h"
+	"Teams.h"
+	"ObjTypes.h"
+	"SpaceObj.h"
+	"Universe.h"
+	"Mesh.h"
+	"Shader.h"
+	"AutoLOD.h"
+	"CRC32.h"
+	"Hash.h"
+	"prim3d.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/MeshAnim.c
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+	"Debug.h"
+	"File.h"
+	"Matrix.h"
+	"Memory.h"
+	"MeshAnim.h"
+	"NIS.h"
+	"SpaceObj.h"
+	"Types.h"
+	"Universe.h"
+	"Vector.h"
+	"mainrgn.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/MEX.c
+	<string.h>
+	<strings.h>
+	<math.h>
+	"Matrix.h"
+	"Memory.h"
+	"Debug.h"
+	"File.h"
+	"MEX.h"
+	"Color.h"
+	"FastMath.h"
+
+1794075799 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/MultiplayerGame.c
+	"MultiplayerGame.h"
+	<stdio.h>
+	<stdlib.h>
+	"ChannelFSM.h"
+	"Chatting.h"
+	"ColPick.h"
+	"CommandNetwork.h"
+	"Debug.h"
+	"FEFlow.h"
+	"File.h"
+	"FontReg.h"
+	"GameChat.h"
+	"Globals.h"
+	"mainswitches.h"
+	"Memory.h"
+	"mouse.h"
+	"MultiplayerLANGame.h"
+	"prim2d.h"
+	"Queue.h"
+	"Randy.h"
+	"SaveGame.h"
+	"ScenPick.h"
+	"Scroller.h"
+	"ServerStatus.h"
+	"StatScript.h"
+	"StringSupport.h"
+	"Titan.h"
+	"TitanNet.h"
+	"Tweak.h"
+	"Universe.h"
+	"utility.h"
+	<strings.h>
+	<wchar.h>
+
+1794075662 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/MultiplayerLANGame.c
+	"MultiplayerLANGame.h"
+	<stdio.h>
+	<stdlib.h>
+	"ChannelFSM.h"
+	"Chatting.h"
+	"ColPick.h"
+	"CommandNetwork.h"
+	"Debug.h"
+	"FEFlow.h"
+	"File.h"
+	"FontReg.h"
+	"GameChat.h"
+	"Globals.h"
+	"mainswitches.h"
+	"Memory.h"
+	"mouse.h"
+	"prim2d.h"
+	"Queue.h"
+	"Randy.h"
+	"ScenPick.h"
+	"Scroller.h"
+	"ServerStatus.h"
+	"StatScript.h"
+	"StringSupport.h"
+	"TimeoutTimer.h"
+	"Titan.h"
+	"TitanNet.h"
+	"Tweak.h"
+	"utility.h"
+	<windows.h>
+	<strings.h>
+	<wchar.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/NavLights.c
+	"NavLights.h"
+	"glinc.h"
+	"Matrix.h"
+	"Memory.h"
+	"prim3d.h"
+	"render.h"
+	"Universe.h"
+	<windows.h>
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/NavLights.h
+	"SpaceObj.h"
+
+1794075539 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Nebulae.c
+	"Nebulae.h"
+	<math.h>
+	<stdio.h>
+	<string.h>
+	"AutoLOD.h"
+	"Debug.h"
+	"FastMath.h"
+	"glinc.h"
+	"Globals.h"
+	"mainrgn.h"
+	"Matrix.h"
+	"Memory.h"
+	"Randy.h"
+	"render.h"
+	"SaveGame.h"
+	"Shader.h"
+	"StatScript.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	<windows.h>
+
+1794075662 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/NetCheck.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"Blobs.h"
+	"CommandWrap.h"
+	"Debug.h"
+	"File.h"
+	"Globals.h"
+	"Memory.h"
+	"NetCheck.h"
+	"Randy.h"
+	"SaveGame.h"
+	"SpaceObj.h"
+	"Stats.h"
+	"StringsOnly.h"
+	"Switches.h"
+	"TitanInterfaceC.h"
+	"TitanNet.h"
+	"Universe.h"
+	"UnivUpdate.h"
+
+1794075728 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/NIS.c
+	"NIS.h"
+	<ctype.h>
+	<float.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	"Attack.h"
+	"BTG.h"
+	"CommandWrap.h"
+	"Debug.h"
+	"Eval.h"
+	"FastMath.h"
+	"FEFlow.h"
+	"File.h"
+	"FontReg.h"
+	"glinc.h"
+	"KAS.h"
+	"Light.h"
+	"mainrgn.h"
+	"Memory.h"
+	"MEX.h"
+	"mouse.h"
+	"Randy.h"
+	"Region.h"
+	"render.h"
+	"Select.h"
+	"ShipDefs.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"StringSupport.h"
+	"Tracking.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	<windows.h>
+	<strings.h>
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Tracking.h
+	"Color.h"
+	"Types.h"
+
+1794075662 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Objectives.c
+	<stdio.h>
+	<string.h>
+	"AIVar.h"
+	"Debug.h"
+	"font.h"
+	"FontReg.h"
+	"KASFunc.h"
+	"mainrgn.h"
+	"Memory.h"
+	"NIS.h"
+	"Objectives.h"
+	"render.h"
+	"SaveGame.h"
+	"Sensors.h"
+	"ShipSelect.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"StringSupport.h"
+	"Subtitle.h"
+	"TaskBar.h"
+	"Universe.h"
+	<strings.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ObjTypes.c
+	"ObjTypes.h"
+	<string.h>
+	"ClassDefs.h"
+	"StatScript.h"
+	"StringSupport.h"
+	<strings.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Options.c
+	"Options.h"
+	<math.h>
+	<stdio.h>
+	"AIPlayer.h"
+	"AutoLOD.h"
+	"Battle.h"
+	"Debug.h"
+	"FEColour.h"
+	"FEFlow.h"
+	"FontReg.h"
+	"glinc.h"
+	"InfoOverlay.h"
+	"Key.h"
+	"KeyBindings.h"
+	"Memory.h"
+	"mouse.h"
+	"MultiplayerGame.h"
+	"rinit.h"
+	"Sensors.h"
+	"Shader.h"
+	"SoundEvent.h"
+	"soundlow.h"
+	"StringsOnly.h"
+	"texreg.h"
+	"UIControls.h"
+	"utility.h"
+	"debugwnd.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/rinit.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/debugwnd.h
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Particle.c
+	<windows.h>
+	<stdio.h>
+	<math.h>
+	<float.h>
+	"glinc.h"
+	"Types.h"
+	"Vector.h"
+	"Randy.h"
+	"Debug.h"
+	"Memory.h"
+	"Particle.h"
+	"render.h"
+	"Mesh.h"
+	"FastMath.h"
+	"mainrgn.h"
+	"Task.h"
+	"Universe.h"
+	"AutoLOD.h"
+	"Shader.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Physics.c
+	"Physics.h"
+	<math.h>
+	"Attributes.h"
+	"Battle.h"
+	"Collision.h"
+	"Debug.h"
+	"FastMath.h"
+	"Gun.h"
+	"Matrix.h"
+	"MultiplayerGame.h"
+	"Select.h"
+	"SoundEvent.h"
+	"Tactics.h"
+	"Tweak.h"
+	"Universe.h"
+	"UnivUpdate.h"
+
+1794075814 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/PiePlate.c
+	<float.h>
+	<math.h>
+	<stdio.h>
+	"Clipper.h"
+	"Color.h"
+	"CommandDefs.h"
+	"FastMath.h"
+	"font.h"
+	"FontReg.h"
+	"glinc.h"
+	"LOD.h"
+	"main.h"
+	"mainrgn.h"
+	"mouse.h"
+	"PiePlate.h"
+	"prim2d.h"
+	"prim3d.h"
+	"ProximitySensor.h"
+	"render.h"
+	"Select.h"
+	"Sensors.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"SpaceObj.h"
+	"Tutor.h"
+	"Tweak.h"
+	"Undo.h"
+	"Universe.h"
+	<windows.h>
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Undo.h
+	"Types.h"
+
+1794075799 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Ping.c
+	"Ping.h"
+	<math.h>
+	<string.h>
+	"Alliance.h"
+	"Battle.h"
+	"Camera.h"
+	"CameraCommand.h"
+	"CommandDefs.h"
+	"Debug.h"
+	"FastMath.h"
+	"Memory.h"
+	"PiePlate.h"
+	"prim2d.h"
+	"ProximitySensor.h"
+	"SaveGame.h"
+	"Select.h"
+	"Sensors.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"StatScript.h"
+	"StringSupport.h"
+	"Tactical.h"
+	"Task.h"
+	"Teams.h"
+	"Tweak.h"
+	"Universe.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Tactical.h
+	"ClassDefs.h"
+	"Color.h"
+	"Types.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/PlugScreen.c
+	<SDL2/SDL.h>
+	"stb_image.h"
+	"PlugScreen.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Color.h"
+	"Debug.h"
+	"FEFlow.h"
+	"File.h"
+	"FontReg.h"
+	"Memory.h"
+	"SoundEvent.h"
+	"StatScript.h"
+	"StringSupport.h"
+	"Task.h"
+	"glinc.h"
+	"mouse.h"
+	"prim2d.h"
+	"render.h"
+	"utility.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/PlugScreen.h
+	"Region.h"
+	"texreg.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ProfileTimers.c
+	"ProfileTimers.h"
+	"TimeoutTimer.h"
+	"Color.h"
+	"font.h"
+	<string.h>
+	"Memory.h"
+	"Debug.h"
+	"File.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Randy.c
+	"Randy.h"
+	"Debug.h"
+	"SaveGame.h"
+	"File.h"
+	"Globals.h"
+	"Memory.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Region.c
+	<ctype.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Debug.h"
+	"Demo.h"
+	"main.h"
+	"Memory.h"
+	"mouse.h"
+	"Region.h"
+	"Task.h"
+	"utility.h"
+	<strings.h>
+
+1794075814 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ResCollect.c
+	"ResCollect.h"
+	<stdlib.h>
+	"AIShip.h"
+	"AITrack.h"
+	"Clouds.h"
+	"Collision.h"
+	"CommandDefs.h"
+	"CommandLayer.h"
+	"Debug.h"
+	"FastMath.h"
+	"Memory.h"
+	"Nebulae.h"
+	"Physics.h"
+	"Randy.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"StatScript.h"
+	"Tutor.h"
+	"Tweak.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	"Vector.h"
+
+1794075914 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ResearchAPI.c
+	<stdio.h>
+	"ConsMgr.h"
+	"Debug.h"
+	"FEReg.h"
+	"LinkedList.h"
+	"Memory.h"
+	"MultiplayerGame.h"
+	"ObjTypes.h"
+	"ResearchAPI.h"
+	"ResearchGUI.h"
+	"ShipDefs.h"
+	"SoundEvent.h"
+	"StatScript.h"
+	"StringSupport.h"
+	"TradeMgr.h"
+	"Universe.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ResearchGUI.h
+	"Region.h"
+	"ResearchAPI.h"
+	"texreg.h"
+	"Types.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ResearchGUI.c
+	<math.h>
+	<stdio.h>
+	"CommandLayer.h"
+	"CommandNetwork.h"
+	"CommandWrap.h"
+	"FEColour.h"
+	"FEFlow.h"
+	"FEReg.h"
+	"font.h"
+	"FontReg.h"
+	"glinc.h"
+	"Globals.h"
+	"InfoOverlay.h"
+	"main.h"
+	"mainrgn.h"
+	"Memory.h"
+	"mouse.h"
+	"MultiplayerGame.h"
+	"ObjTypes.h"
+	"Options.h"
+	"PiePlate.h"
+	"prim2d.h"
+	"Randy.h"
+	"render.h"
+	"ResearchGUI.h"
+	"Scroller.h"
+	"ShipDefs.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"StringSupport.h"
+	"Task.h"
+	"TaskBar.h"
+	"TradeMgr.h"
+	"Tutor.h"
+	"UIControls.h"
+	"Universe.h"
+	<windows.h>
+
+1794076004 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/SaveGame.c
+	"SaveGame.h"
+	<string.h>
+	"AIPlayer.h"
+	"Blobs.h"
+	"BTG.h"
+	"CameraCommand.h"
+	"Clouds.h"
+	"CommandDefs.h"
+	"CommandWrap.h"
+	"ConsMgr.h"
+	"Damage.h"
+	"File.h"
+	"LevelLoad.h"
+	"Light.h"
+	"LinkedList.h"
+	"Memory.h"
+	"MultiplayerGame.h"
+	"Objectives.h"
+	"Ping.h"
+	"Randy.h"
+	"SalCapCorvette.h"
+	"Select.h"
+	"Sensors.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"Star3d.h"
+	"StringSupport.h"
+	"Tactics.h"
+	"Teams.h"
+	"TradeMgr.h"
+	"Tutor.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	"utility.h"
+	<emscripten.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ScenPick.c
+	<io.h>
+	<sys/stat.h>
+	<dirent.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+	<ctype.h>
+	"Debug.h"
+	"File.h"
+	"Memory.h"
+	"utility.h"
+	"font.h"
+	"FontReg.h"
+	"prim2d.h"
+	"mouse.h"
+	"Scroller.h"
+	"ScenPick.h"
+	"texreg.h"
+	"render.h"
+	"BMP.h"
+	"MaxMultiplayer.h"
+	"MultiplayerGame.h"
+	"FEColour.h"
+	"StatScript.h"
+	"Subtitle.h"
+	"StringSupport.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Scroller.c
+	"mouse.h"
+	"Scroller.h"
+
+1794076004 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Select.c
+	<windows.h>
+	<stdlib.h>
+	"Vector.h"
+	"FontReg.h"
+	"utility.h"
+	"Debug.h"
+	"Universe.h"
+	"CloakGenerator.h"
+	"GravWellGenerator.h"
+	"UnivUpdate.h"
+	"FastMath.h"
+	"mouse.h"
+	"glinc.h"
+	"main.h"
+	"InfoOverlay.h"
+	"mainrgn.h"
+	"render.h"
+	"Alliance.h"
+	"Sensors.h"
+	"Select.h"
+	"SalCapCorvette.h"
+	"ProximitySensor.h"
+	"StringSupport.h"
+	"Tweak.h"
+	"Tutor.h"
+	"mainrgn.h"
+
+1794076004 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Sensors.c
+	"Sensors.h"
+	<float.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"Alliance.h"
+	"Battle.h"
+	"Blobs.h"
+	"Bounties.h"
+	"BTG.h"
+	"Camera.h"
+	"CameraCommand.h"
+	"CommandDefs.h"
+	"CommandWrap.h"
+	"Debug.h"
+	"FastMath.h"
+	"font.h"
+	"glinc.h"
+	"GravWellGenerator.h"
+	"InfoOverlay.h"
+	"Light.h"
+	"main.h"
+	"mainrgn.h"
+	"Memory.h"
+	"mouse.h"
+	"MultiplayerGame.h"
+	"NIS.h"
+	"PiePlate.h"
+	"Ping.h"
+	"prim2d.h"
+	"prim3d.h"
+	"Probe.h"
+	"ProximitySensor.h"
+	"Randy.h"
+	"Region.h"
+	"render.h"
+	"rglu.h"
+	"SaveGame.h"
+	"Select.h"
+	"Shader.h"
+	"ShipSelect.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"StatScript.h"
+	"StringSupport.h"
+	"Subtitle.h"
+	"Tactical.h"
+	"TaskBar.h"
+	"Teams.h"
+	"Transformer.h"
+	"Tutor.h"
+	"Tweak.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	"utility.h"
+	"Vector.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Transformer.h
+	"Matrix.h"
+	"Mesh.h"
+	"Types.h"
+	"Vector.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Shader.c
+	"glinc.h"
+	<math.h>
+	<string.h>
+	"Shader.h"
+	"Clipper.h"
+	"FastMath.h"
+	"Light.h"
+	"Debug.h"
+	"render.h"
+	"Memory.h"
+
+1794076004 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ShipSelect.c
+	"ShipSelect.h"
+	<string.h>
+	"Alliance.h"
+	"Attributes.h"
+	"Battle.h"
+	"CommandDefs.h"
+	"Memory.h"
+	"ProximitySensor.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"SpeechEvent.h"
+	"Tweak.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/ShipView.c
+	"ShipView.h"
+	<float.h>
+	<math.h>
+	<stdio.h>
+	<string.h>
+	"Camera.h"
+	"ConsMgr.h"
+	"FastMath.h"
+	"FEColour.h"
+	"FEReg.h"
+	"font.h"
+	"FontReg.h"
+	"glinc.h"
+	"Gun.h"
+	"Light.h"
+	"mouse.h"
+	"Options.h"
+	"Probe.h"
+	"render.h"
+	"rglu.h"
+	"SoundEvent.h"
+	"StatScript.h"
+	"StringSupport.h"
+	"Types.h"
+	"Tweak.h"
+	"Universe.h"
+	<windows.h>
+
+1794076279 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/SinglePlayer.c
+	"SinglePlayer.h"
+	<ctype.h>
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"AIPlayer.h"
+	"AIResourceMan.h"
+	"AIShip.h"
+	"AITrack.h"
+	"AIVar.h"
+	"Alliance.h"
+	"Animatic.h"
+	"Attributes.h"
+	"Collision.h"
+	"CommandDefs.h"
+	"CommandWrap.h"
+	"Damage.h"
+	"DDDFrigate.h"
+	"FEFlow.h"
+	"FastMath.h"
+	"File.h"
+	"font.h"
+	"GravWellGenerator.h"
+	"HorseRace.h"
+	"HS.h"
+	"InfoOverlay.h"
+	"LaunchMgr.h"
+	"LevelLoad.h"
+	"LinkedList.h"
+	"mainrgn.h"
+	"Memory.h"
+	"Mothership.h"
+	"mouse.h"
+	"NIS.h"
+	"Objectives.h"
+	"ObjTypes.h"
+	"Physics.h"
+	"Ping.h"
+	"Randy.h"
+	"ResearchGUI.h"
+	"ResearchShip.h"
+	"SaveGame.h"
+	"Select.h"
+	"Sensors.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"StatScript.h"
+	"StringSupport.h"
+	"TaskBar.h"
+	"TradeMgr.h"
+	"Tutor.h"
+	"Tweak.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	"utility.h"
+	"Mission01.h"
+	"Mission02.h"
+	"Mission03.h"
+	"Mission04.h"
+	"Mission05.h"
+	"Mission05_OEM.h"
+	"Mission06.h"
+	"Mission07.h"
+	"Mission08.h"
+	"Mission09.h"
+	"Mission10.h"
+	"Mission11.h"
+	"Mission12.h"
+	"Mission13.h"
+	"Mission14.h"
+	"Mission15.h"
+	"Mission16.h"
+	"Tutorial1.h"
+	<strings.h>
+
+1794138319 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/SoundEvent.c
+	"SoundEvent.h"
+	<math.h>
+	"CommandDefs.h"
+	"FastMath.h"
+	"File.h"
+	"Gun.h"
+	"mainrgn.h"
+	"Memory.h"
+	"Matrix.h"
+	"Randy.h"
+	"render.h"
+	"Select.h"
+	"Ships.h"
+	"SinglePlayer.h"
+	"SoundEventPrivate.h"
+	"soundcmn.h"
+	"soundlow.h"
+	"Switches.h"
+	"VolTweakDefs.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/SoundEventPrivate.h
+	"ObjTypes.h"
+	"soundcmn.h"
+	"SoundStructs.h"
+	"SpaceObj.h"
+	"Types.h"
+	"Vector.h"
+
+1794101821 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/soundcmn.h
+	<SDL2/SDL.h>
+	"File.h"
+	"fqcodec.h"
+	"soundlow.h"
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/fqcodec.h
+	"Types.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/VolTweakDefs.h
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/SoundEventPlay.c
+	"Debug.h"
+	"FastMath.h"
+	"Gun.h"
+	"mainrgn.h"
+	"mainswitches.h"
+	"Matrix.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"SoundEventPrivate.h"
+	"soundlow.h"
+	"Switches.h"
+	"UnivUpdate.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/SoundEventStop.c
+	"mainswitches.h"
+	"SoundEventPrivate.h"
+	"soundlow.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/SpeechEvent.c
+	"SpeechEvent.h"
+	"Blobs.h"
+	"Chatting.h"
+	"File.h"
+	"fquant.h"
+	"mainrgn.h"
+	"Memory.h"
+	"NIS.h"
+	"Randy.h"
+	"Select.h"
+	"SinglePlayer.h"
+	"soundcmn.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"SoundEventPrivate.h"
+	"SoundMusic.h"
+	"Switches.h"
+	"Types.h"
+	"UnivUpdate.h"
+	"utility.h"
+	<strings.h>
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/fquant.h
+	"Types.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Star3d.c
+	"Star3d.h"
+	<math.h>
+	<stdlib.h>
+	"FastMath.h"
+	"Matrix.h"
+	"Memory.h"
+	"Randy.h"
+
+1794076080 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Stats.c
+	"Stats.h"
+	<stdarg.h>
+	<string.h>
+	"CRC32.h"
+	"FastMath.h"
+	"File.h"
+	"Memory.h"
+	"NetCheck.h"
+	"ResearchAPI.h"
+	"SinglePlayer.h"
+	"Tweak.h"
+	"Universe.h"
+	"UnivUpdate.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/StatScript.c
+	"StatScript.h"
+	<math.h>
+	<stdio.h>
+	<string.h>
+	"Color.h"
+	"Crates.h"
+	"Debug.h"
+	"FastMath.h"
+	"File.h"
+	"Formation.h"
+	"Memory.h"
+	"MEX.h"
+	"Mothership.h"
+	"MultiplayerGame.h"
+	"SpaceObj.h"
+	"Tactics.h"
+	"texreg.h"
+	"Tweak.h"
+	<strings.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/StringSupport.c
+	"StringSupport.h"
+	"Memory.h"
+	"StatScript.h"
+	<windows.h>
+
+1795359367 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Subtitle.c
+	<stdio.h>
+	<string.h>
+	"glinc.h"
+	"Debug.h"
+	"Memory.h"
+	"StatScript.h"
+	"FontReg.h"
+	"main.h"
+	"Key.h"
+	"Universe.h"
+	"Teams.h"
+	"mainrgn.h"
+	"Sensors.h"
+	"NIS.h"
+	"render.h"
+	"FEReg.h"
+	"StringSupport.h"
+	"Subtitle.h"
+
+1794076280 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Tactical.c
+	"Tactical.h"
+	<stdio.h>
+	"Alliance.h"
+	"Blobs.h"
+	"Debug.h"
+	"font.h"
+	"main.h"
+	"Memory.h"
+	"render.h"
+	"Sensors.h"
+	"Ships.h"
+	"SpaceObj.h"
+	"StatScript.h"
+	"Teams.h"
+	"Tweak.h"
+	"Universe.h"
+	"Vector.h"
+	<strings.h>
+
+1794076280 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Tactics.c
+	"Tactics.h"
+	<stdlib.h>
+	"Alliance.h"
+	"Battle.h"
+	"Blobs.h"
+	"ClassDefs.h"
+	"CommandDefs.h"
+	"CommandLayer.h"
+	"FastMath.h"
+	"FEFlow.h"
+	"FlightMan.h"
+	"Formation.h"
+	"mainrgn.h"
+	"Memory.h"
+	"mouse.h"
+	"Physics.h"
+	"Probe.h"
+	"ProximitySensor.h"
+	"Randy.h"
+	"RepairCorvette.h"
+	"SalCapCorvette.h"
+	"Select.h"
+	"SoundEvent.h"
+	"StatScript.h"
+	"Tweak.h"
+	"Types.h"
+	"Universe.h"
+	"UnivUpdate.h"
+
+1794076258 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Task.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"Debug.h"
+	"Memory.h"
+	"Demo.h"
+	"TitanInterfaceC.h"
+	"Task.h"
+
+1794076258 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/TaskBar.c
+	"TaskBar.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"CommandDefs.h"
+	"Debug.h"
+	"FEColour.h"
+	"font.h"
+	"FontReg.h"
+	"Globals.h"
+	"InfoOverlay.h"
+	"LaunchMgr.h"
+	"main.h"
+	"mainrgn.h"
+	"Memory.h"
+	"Objectives.h"
+	"ObjTypes.h"
+	"PiePlate.h"
+	"Select.h"
+	"Sensors.h"
+	"SinglePlayer.h"
+	"StringSupport.h"
+	"Subtitle.h"
+	"Tutor.h"
+	"UIControls.h"
+	"Universe.h"
+	"utility.h"
+	<strings.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Teams.c
+	"Teams.h"
+	<stdio.h>
+	"Debug.h"
+	"Memory.h"
+	"SpaceObj.h"
+	"StatScript.h"
+	"Tactical.h"
+	"Universe.h"
+	"utility.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Timer.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"Memory.h"
+	"SaveGame.h"
+	"Timer.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/TitanNet.c
+	"TitanNet.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Captaincy.h"
+	"Color.h"
+	"ColPick.h"
+	"CommandNetwork.h"
+	"Debug.h"
+	"File.h"
+	"MultiplayerGame.h"
+	"MultiplayerLANGame.h"
+	"ScenPick.h"
+	"StatScript.h"
+	"Teams.h"
+	"Titan.h"
+	"utility.h"
+	<windows.h>
+	<winbase.h>
+	<io.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Tracking.c
+	"Tracking.h"
+	<string.h>
+	"main.h"
+	"Debug.h"
+	"Memory.h"
+	"prim2d.h"
+	"font.h"
+	"Key.h"
+
+1794076292 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/TradeMgr.c
+	<math.h>
+	<stdio.h>
+	"CameraCommand.h"
+	"CommandLayer.h"
+	"CommandWrap.h"
+	"ConsMgr.h"
+	"FastMath.h"
+	"FEFlow.h"
+	"FEReg.h"
+	"font.h"
+	"FontReg.h"
+	"glinc.h"
+	"Globals.h"
+	"InfoOverlay.h"
+	"Key.h"
+	"LinkedList.h"
+	"mainrgn.h"
+	"Matrix.h"
+	"Memory.h"
+	"mouse.h"
+	"NIS.h"
+	"ObjTypes.h"
+	"PiePlate.h"
+	"Ping.h"
+	"Randy.h"
+	"render.h"
+	"ResearchGUI.h"
+	"SaveGame.h"
+	"Select.h"
+	"Sensors.h"
+	"ShipDefs.h"
+	"ShipView.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"StringSupport.h"
+	"Task.h"
+	"TaskBar.h"
+	"TradeMgr.h"
+	"UIControls.h"
+	"Universe.h"
+	"Vector.h"
+	<windows.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Trails.c
+	"Trails.h"
+	<float.h>
+	<math.h>
+	<stdio.h>
+	<string.h>
+	"Camera.h"
+	"Clouds.h"
+	"CommandDefs.h"
+	"Debug.h"
+	"FastMath.h"
+	"glinc.h"
+	"main.h"
+	"Memory.h"
+	"Particle.h"
+	"prim3d.h"
+	"Randy.h"
+	"render.h"
+	"Select.h"
+	"Shader.h"
+	"SpaceObj.h"
+	"StatScript.h"
+	"Tactics.h"
+	"Teams.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Transformer.c
+	"Transformer.h"
+	"Memory.h"
+	"main.h"
+
+1794076327 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Tutor.c
+	"Tutor.h"
+	"Tutorial1.h"
+	<math.h>
+	"AIPlayer.h"
+	"CameraCommand.h"
+	"Collision.h"
+	"ConsMgr.h"
+	"FastMath.h"
+	"File.h"
+	"FontReg.h"
+	"GamePick.h"
+	"glinc.h"
+	"KAS.h"
+	"LevelLoad.h"
+	"main.h"
+	"mainrgn.h"
+	"Memory.h"
+	"mouse.h"
+	"PiePlate.h"
+	"Region.h"
+	"render.h"
+	"SaveGame.h"
+	"Select.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"SpeechEvent.h"
+	"StringSupport.h"
+	"Subtitle.h"
+	"TaskBar.h"
+	"texreg.h"
+	"UIControls.h"
+	"utility.h"
+	<windows.h>
+	<strings.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Tweak.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	"Demo.h"
+	"Tweak.h"
+	"StatScript.h"
+	"Blobs.h"
+	"MultiplayerGame.h"
+	"HorseRace.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Twiddle.c
+	"Twiddle.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Twiddle.h
+	"Types.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Types.c
+	"Types.h"
+
+1794076385 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/UIControls.c
+	"UIControls.h"
+	"Color.h"
+	"FEReg.h"
+	"FontReg.h"
+	"glinc.h"
+	"mainswitches.h"
+	"Memory.h"
+	"mouse.h"
+	"ScenPick.h"
+	"Scroller.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"StatScript.h"
+	"StringSupport.h"
+	"Task.h"
+	"Universe.h"
+	"utility.h"
+	<windows.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Undo.c
+	"Undo.h"
+	"CommandWrap.h"
+	"Memory.h"
+	"Select.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Universe.c
+	"Universe.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	"AIPlayer.h"
+	"AIShip.h"
+	"AutoDownloadMap.h"
+	"Bounties.h"
+	"Captaincy.h"
+	"Collision.h"
+	"CommandNetwork.h"
+	"Debug.h"
+	"Dock.h"
+	"ETG.h"
+	"FastMath.h"
+	"File.h"
+	"Formation.h"
+	"GameChat.h"
+	"Gun.h"
+	"HorseRace.h"
+	"LagPrint.h"
+	"LevelLoad.h"
+	"LinkedList.h"
+	"Memory.h"
+	"MeshAnim.h"
+	"MEX.h"
+	"MultiplayerGame.h"
+	"NavLights.h"
+	"NetCheck.h"
+	"Ping.h"
+	"render.h"
+	"SaveGame.h"
+	"ScenPick.h"
+	"Ships.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"Stats.h"
+	"StatScript.h"
+	"StringSupport.h"
+	"Task.h"
+	"Teams.h"
+	"Tutor.h"
+	"Tweak.h"
+	"UnivUpdate.h"
+	"utility.h"
+	<strings.h>
+
+1794076759 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/UnivUpdate.c
+	"UnivUpdate.h"
+	<math.h>
+	"AIPlayer.h"
+	"AIShip.h"
+	"AITrack.h"
+	"Alliance.h"
+	"Battle.h"
+	"Bounties.h"
+	"Clamp.h"
+	"Collision.h"
+	"CommandDefs.h"
+	"CommandWrap.h"
+	"Crates.h"
+	"Damage.h"
+	"Debug.h"
+	"FastMath.h"
+	"FlightMan.h"
+	"glinc.h"
+	"HS.h"
+	"InfoOverlay.h"
+	"LaunchMgr.h"
+	"LevelLoad.h"
+	"MadLinkIn.h"
+	"MadLinkInDefs.h"
+	"mainrgn.h"
+	"Memory.h"
+	"MEX.h"
+	"mouse.h"
+	"MultiplayerGame.h"
+	"NetCheck.h"
+	"NIS.h"
+	"Physics.h"
+	"PiePlate.h"
+	"Ping.h"
+	"ProfileTimers.h"
+	"Randy.h"
+	"SaveGame.h"
+	"Select.h"
+	"Sensors.h"
+	"Ships.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"Star3d.h"
+	"StatScript.h"
+	"StringsOnly.h"
+	"Tactics.h"
+	"TradeMgr.h"
+	"Tutor.h"
+	"Tweak.h"
+	"Universe.h"
+	"utility.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Vector.c
+	"Vector.h"
+	"Debug.h"
+	"FastMath.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Game/Volume.c
+	"AIUtilities.h"
+	"Vector.h"
+	"Volume.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/AdvanceSupportFrigate.c
+	"AdvanceSupportFrigate.h"
+	"Attack.h"
+	"DefaultShip.h"
+	"RepairCorvette.h"
+	"ShipSelect.h"
+	"StatScript.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/Carrier.c
+	"Carrier.h"
+	"Attack.h"
+	"ConsMgr.h"
+	"DefaultShip.h"
+	"RepairCorvette.h"
+	"SalCapCorvette.h"
+	"SaveGame.h"
+	"Universe.h"
+	"utility.h"
+
+1794076792 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/CloakGenerator.c
+	"CloakGenerator.h"
+	"Battle.h"
+	"GenericInterceptor.h"
+	"Memory.h"
+	"SalCapCorvette.h"
+	"SaveGame.h"
+	"SoundEvent.h"
+	"Tweak.h"
+	"Universe.h"
+
+1794076758 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/DDDFrigate.c
+	"DDDFrigate.h"
+	"AIShip.h"
+	"AITrack.h"
+	"Collision.h"
+	"Drone.h"
+	"Memory.h"
+	"Randy.h"
+	"SaveGame.h"
+	"SoundEvent.h"
+	"SoundEventDefs.h"
+	"SpeechEvent.h"
+	"StatScript.h"
+	"Universe.h"
+	"UnivUpdate.h"
+
+1794076792 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/DefaultShip.c
+	"DefaultShip.h"
+	"Attack.h"
+	"Gun.h"
+	"Universe.h"
+	"UnivUpdate.h"
+
+1794076851 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/DefenseFighter.c
+	"DefenseFighter.h"
+	"AIShip.h"
+	"AITrack.h"
+	"Collision.h"
+	"FastMath.h"
+	"glinc.h"
+	"Memory.h"
+	"Randy.h"
+	"SaveGame.h"
+	"SoundEvent.h"
+	"StatScript.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	"UnivUpdate.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/DFGFrigate.c
+	"DFGFrigate.h"
+	<math.h>
+	"Attack.h"
+	"FastMath.h"
+	"glinc.h"
+	"Randy.h"
+	"StatScript.h"
+	"UnivUpdate.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/Drone.c
+	"Drone.h"
+	"Attack.h"
+	"DefaultShip.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/FloatingCity.c
+	"FloatingCity.h"
+	"Attack.h"
+	"DefaultShip.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/GenericDefender.c
+	"GenericDefender.h"
+	"AIShip.h"
+	"AITrack.h"
+	"Battle.h"
+	"Collision.h"
+	"Debug.h"
+	"DefaultShip.h"
+	"FastMath.h"
+	"GenericInterceptor.h"
+	"Gun.h"
+	"MinelayerCorvette.h"
+	"Physics.h"
+	"ShipSelect.h"
+	"SoundEvent.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/GenericInterceptor.c
+	"GenericInterceptor.h"
+	<math.h>
+	"AIShip.h"
+	"AITrack.h"
+	"Battle.h"
+	"Collision.h"
+	"DefenseFighter.h"
+	"FastMath.h"
+	"Gun.h"
+	"MadLinkIn.h"
+	"MadLinkInDefs.h"
+	"NIS.h"
+	"Randy.h"
+	"SoundEvent.h"
+	"Tactics.h"
+	"Universe.h"
+
+1794076882 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/GravWellGenerator.c
+	"GravWellGenerator.h"
+	"Attack.h"
+	"Battle.h"
+	"Blobs.h"
+	"FastMath.h"
+	"Randy.h"
+	"MadLinkIn.h"
+	"Memory.h"
+	"SaveGame.h"
+	"Select.h"
+	"SoundEvent.h"
+	"Universe.h"
+	"UnivUpdate.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/HeavyCorvette.c
+	"HeavyCorvette.h"
+	"AIShip.h"
+	"AITrack.h"
+	"Battle.h"
+	"DefaultShip.h"
+	"FastMath.h"
+	"Gun.h"
+	"SoundEvent.h"
+	"Tactics.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/HeavyCruiser.c
+	"HeavyCruiser.h"
+	"Attack.h"
+	"DefaultShip.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/IonCannonFrigate.c
+	"IonCannonFrigate.h"
+	"Attack.h"
+	"DefaultShip.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/LightCorvette.c
+	"LightCorvette.h"
+	"Attack.h"
+	"DefaultShip.h"
+
+1794076882 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/MinelayerCorvette.c
+	"MinelayerCorvette.h"
+	<math.h>
+	"AIShip.h"
+	"AITrack.h"
+	"Battle.h"
+	"Collision.h"
+	"FastMath.h"
+	"Gun.h"
+	"Memory.h"
+	"Randy.h"
+	"SaveGame.h"
+	"SoundEvent.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/MissileDestroyer.c
+	"MissileDestroyer.h"
+	"AIShip.h"
+	"AITrack.h"
+	"Attack.h"
+	"Battle.h"
+	"Collision.h"
+	"DefaultShip.h"
+	"Gun.h"
+	"SoundEvent.h"
+	"StatScript.h"
+	"Universe.h"
+
+1794076882 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/Mothership.c
+	"Mothership.h"
+	"AITrack.h"
+	"Attack.h"
+	"CommandDefs.h"
+	"DefaultShip.h"
+	"MadLinkIn.h"
+	"MadLinkInDefs.h"
+	"SalCapCorvette.h"
+	"SaveGame.h"
+	"Tweak.h"
+	"Universe.h"
+	"utility.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/MultiGunCorvette.c
+	"MultiGunCorvette.h"
+	"Attack.h"
+	"DefaultShip.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P1IonArrayFrigate.c
+	"P1IonArrayFrigate.h"
+	"Attack.h"
+	"DefaultShip.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P1MissileCorvette.c
+	"P1MissileCorvette.h"
+	"Attack.h"
+	"DefaultShip.h"
+	"Gun.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P1Mothership.c
+	"P1Mothership.h"
+	"Attack.h"
+	"DefaultShip.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P1StandardCorvette.c
+	"P1StandardCorvette.h"
+	"Attack.h"
+	"DefaultShip.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P2AdvanceSwarmer.c
+	"P2AdvanceSwarmer.h"
+	"Attack.h"
+	"DefaultShip.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P2FuelPod.c
+	"P2FuelPod.h"
+	"Attack.h"
+	"DefaultShip.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P2Mothership.c
+	"P2Mothership.h"
+	"Attack.h"
+	"DefaultShip.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P2MultiBeamFrigate.c
+	"P2MultiBeamFrigate.h"
+	"AIShip.h"
+	"AITrack.h"
+	"Collision.h"
+	"Gun.h"
+	"StatScript.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P2Swarmer.c
+	"P2Swarmer.h"
+	"Attack.h"
+	"DefaultShip.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/P3StandardShip.c
+	"P3StandardShip.h"
+	"Attack.h"
+	"Debug.h"
+	"DefaultShip.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/Probe.c
+	"Probe.h"
+	"AITrack.h"
+	"CommandDefs.h"
+	"MadLinkIn.h"
+	"MadLinkInDefs.h"
+	"StatScript.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/ProximitySensor.c
+	"ProximitySensor.h"
+	"Alliance.h"
+	"Battle.h"
+	"MadLinkIn.h"
+	"MadLinkInDefs.h"
+	"Ping.h"
+	"SoundEvent.h"
+	"StatScript.h"
+	"Tweak.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/RepairCorvette.c
+	"RepairCorvette.h"
+	"AIShip.h"
+	"AITrack.h"
+	"Collision.h"
+	"CommandDefs.h"
+	"DefaultShip.h"
+	"SaveGame.h"
+	"SoundEvent.h"
+	"Universe.h"
+	"UnivUpdate.h"
+
+1794076925 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/ResearchShip.c
+	"ResearchShip.h"
+	<math.h>
+	"AITrack.h"
+	"CommandDefs.h"
+	"Dock.h"
+	"FastMath.h"
+	"SaveGame.h"
+	"SoundEvent.h"
+	"StatScript.h"
+	"Universe.h"
+	"UnivUpdate.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/ResourceCollector.c
+	"ResourceCollector.h"
+	"RepairCorvette.h"
+	"ResCollect.h"
+	"ShipSelect.h"
+	"StatScript.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/ResourceController.c
+	"ResourceController.h"
+	"RepairCorvette.h"
+	"ShipSelect.h"
+	"StatScript.h"
+
+1794076925 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/SalCapCorvette.c
+	"SalCapCorvette.h"
+	<math.h>
+	"AIShip.h"
+	"AITrack.h"
+	"AIVar.h"
+	"Alliance.h"
+	"Battle.h"
+	"Carrier.h"
+	"Clamp.h"
+	"Collision.h"
+	"CommandDefs.h"
+	"FastMath.h"
+	"GenericDefender.h"
+	"GravWellGenerator.h"
+	"MadLinkIn.h"
+	"MadLinkInDefs.h"
+	"Mothership.h"
+	"MultiplayerGame.h"
+	"NIS.h"
+	"Ping.h"
+	"prim3d.h"
+	"Randy.h"
+	"SaveGame.h"
+	"Select.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"Tactics.h"
+	"Tweak.h"
+	"Universe.h"
+	"UnivUpdate.h"
+
+1794076925 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/SensorArray.c
+	"SensorArray.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/StandardDestroyer.c
+	"StandardDestroyer.h"
+	"Attack.h"
+	"DefaultShip.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/Ships/StandardFrigate.c
+	"StandardFrigate.h"
+	"Attack.h"
+	"DefaultShip.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/ThirdParty/CRC/CRC32.c
+	"CRC32.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/ThirdParty/LZSS/BitIO.c
+	"BitIO.h"
+	<assert.h>
+	<stdlib.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/ThirdParty/LZSS/LZSS.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"BitIO.h"
+	"LZSS.h"
+
+1795550686 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/avi.c
+	"Animatic.h"
+	"avi.h"
+	"Debug.h"
+	"File.h"
+	"glinc.h"
+	"NIS.h"
+	"Subtitle.h"
+	"Tutor.h"
+	"utility.h"
+	"Universe.h"
+	"render.h"
+	"SoundEvent.h"
+	<windows.h>
+	<Vfw.h>
+	"wave.h"
+	<libavformat/avformat.h>
+	<libavcodec/avcodec.h>
+	<libswscale/swscale.h>
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/wave.h
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/dct.c
+	<stdio.h>
+	<math.h>
+	"fqcodec.h"
+	"dct.h"
+	"mixfft.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/dct.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/mixfft.h
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/font.c
+	<stdlib.h>
+	"glinc.h"
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	"Memory.h"
+	"File.h"
+	"Debug.h"
+	"utility.h"
+	"render.h"
+	"font.h"
+	"FontReg.h"
+	"main.h"
+	"texreg.h"
+	"Twiddle.h"
+	"tga.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/fqcodec.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"fqcodec.h"
+	"dct.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/fqeffect.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"fqcodec.h"
+	"fqeffect.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/fquant.c
+	<stdio.h>
+	<string.h>
+	"fqcodec.h"
+	"fquant.h"
+
+1795211124 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<SDL2/SDL.h>
+	"AIPlayer.h"
+	"AutoLOD.h"
+	"avi.h"
+	"BTG.h"
+	"Camera.h"
+	"Captaincy.h"
+	"ColPick.h"
+	"CommandLayer.h"
+	"ConsMgr.h"
+	"Debug.h"
+	"Demo.h"
+	"FEReg.h"
+	"File.h"
+	"FontReg.h"
+	"Formation.h"
+	"glinc.h"
+	"Globals.h"
+	"HorseRace.h"
+	"Key.h"
+	"LaunchMgr.h"
+	"main.h"
+	"mainrgn.h"
+	"Memory.h"
+	"mouse.h"
+	"MultiplayerGame.h"
+	"NIS.h"
+	"ObjTypes.h"
+	"Options.h"
+	"Particle.h"
+	"PiePlate.h"
+	"regkey.h"
+	"render.h"
+	"ResearchAPI.h"
+	"ResearchGUI.h"
+	"resource.h"
+	"rinit.h"
+	"Sensors.h"
+	"SoundEvent.h"
+	"soundlow.h"
+	"StringSupport.h"
+	"Subtitle.h"
+	"Tactics.h"
+	"Task.h"
+	"TitanNet.h"
+	"utility.h"
+	"Universe.h"
+	"soundcmn.h"
+	<windows.h>
+	<winreg.h>
+	"debugwnd.h"
+	<emscripten.h>
+
+1794084413 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/regkey.h
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/resource.h
+
+1794076572 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/mainrgn.c
+	"mainrgn.h"
+	<float.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"AIVar.h"
+	"Alliance.h"
+	"Battle.h"
+	"CameraCommand.h"
+	"Captaincy.h"
+	"Chatting.h"
+	"CommandDefs.h"
+	"CommandNetwork.h"
+	"CommandWrap.h"
+	"ConsMgr.h"
+	"Debug.h"
+	"ETG.h"
+	"FastMath.h"
+	"FlightMan.h"
+	"font.h"
+	"FontReg.h"
+	"GameChat.h"
+	"GamePick.h"
+	"glinc.h"
+	"Globals.h"
+	"Gun.h"
+	"InfoOverlay.h"
+	"KAS.h"
+	"KASFunc.h"
+	"KeyBindings.h"
+	"LaunchMgr.h"
+	"main.h"
+	"Memory.h"
+	"MeshAnim.h"
+	"mouse.h"
+	"NetCheck.h"
+	"NIS.h"
+	"Objectives.h"
+	"Options.h"
+	"Particle.h"
+	"PiePlate.h"
+	"prim2d.h"
+	"prim3d.h"
+	"Probe.h"
+	"render.h"
+	"ResearchGUI.h"
+	"ResearchShip.h"
+	"screenshot.h"
+	"Select.h"
+	"Sensors.h"
+	"Shader.h"
+	"ShipView.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"soundlow.h"
+	"StringSupport.h"
+	"Switches.h"
+	"Tactical.h"
+	"Tactics.h"
+	"TaskBar.h"
+	"Teams.h"
+	"TradeMgr.h"
+	"Tutor.h"
+	"Tweak.h"
+	"Undo.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	"utility.h"
+	<windows.h>
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/screenshot.h
+	"Key.h"
+	"Types.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/mixfft.c
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/mouse.c
+	"mouse.h"
+	<SDL2/SDL.h>
+	"CommandWrap.h"
+	"DDDFrigate.h"
+	"Debug.h"
+	"Demo.h"
+	"Dock.h"
+	"FEFlow.h"
+	"font.h"
+	"FontReg.h"
+	"glinc.h"
+	"Globals.h"
+	"GravWellGenerator.h"
+	"InfoOverlay.h"
+	"KeyBindings.h"
+	"main.h"
+	"mainrgn.h"
+	"Memory.h"
+	"NIS.h"
+	"render.h"
+	"ResearchGUI.h"
+	"Select.h"
+	"Sensors.h"
+	"ShipSelect.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"StringSupport.h"
+	"texreg.h"
+	"Tutor.h"
+	"Tweak.h"
+	"Universe.h"
+	"utility.h"
+	<windows.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/NetworkInterface.c
+	<string.h>
+	<stdio.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_thread.h>
+	<SDL2/SDL_net.h>
+	"NetworkInterface.h"
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/NetworkInterface.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_thread.h>
+	"SDL_net.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/prim2d.c
+	"prim2d.h"
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	"Debug.h"
+	"FastMath.h"
+	"glinc.h"
+	"render.h"
+	"rglu.h"
+	<windows.h>
+
+1794076641 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/prim3d.c
+	"prim3d.h"
+	<math.h>
+	<stdlib.h>
+	"Debug.h"
+	"FastMath.h"
+	"FastMath.h"
+	"glinc.h"
+	"LinkedList.h"
+	"Memory.h"
+	"render.h"
+	<windows.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/Queue.c
+	<string.h>
+	"Debug.h"
+	"Memory.h"
+	"Queue.h"
+
+1795350011 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/render.c
+	"render.h"
+	<float.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"AIShip.h"
+	"Animatic.h"
+	"AutoLOD.h"
+	"BTG.h"
+	"CameraCommand.h"
+	"Clipper.h"
+	"Clouds.h"
+	"Collision.h"
+	"CommandNetwork.h"
+	"Debug.h"
+	"DefenseFighter.h"
+	"Demo.h"
+	"Dock.h"
+	"FastMath.h"
+	"File.h"
+	"font.h"
+	"glinc.h"
+	"Globals.h"
+	"Gun.h"
+	"HS.h"
+	"Key.h"
+	"LagPrint.h"
+	"LaunchMgr.h"
+	"Light.h"
+	"main.h"
+	"mainrgn.h"
+	"Memory.h"
+	"Mesh.h"
+	"mouse.h"
+	"NavLights.h"
+	"Nebulae.h"
+	"NetCheck.h"
+	"NIS.h"
+	"Objectives.h"
+	"PiePlate.h"
+	"prim2d.h"
+	"prim3d.h"
+	"ProfileTimers.h"
+	"ProximitySensor.h"
+	"rglu.h"
+	"Region.h"
+	"SalCapCorvette.h"
+	"screenshot.h"
+	"Select.h"
+	"Shader.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"StringsOnly.h"
+	"Subtitle.h"
+	"Switches.h"
+	"Tactical.h"
+	"Task.h"
+	"Teams.h"
+	"texreg.h"
+	"Tracking.h"
+	"Tutor.h"
+	"Tweak.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	"utility.h"
+	"SDL_syswm.h"
+	<windows.h>
+	<sys/mman.h>
+
+1738131858 /usr/include/SDL2/SDL_syswm.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	<windows.h>
+	<Inspectable.h>
+	<X11/Xlib.h>
+	<X11/Xatom.h>
+	<directfb.h>
+	<UIKit/UIKit.h>
+	"SDL_egl.h"
+	<os2.h>
+	"begin_code.h"
+	"close_code.h"
+
+1738131858 /usr/include/SDL2/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"close_code.h"
+
+1734905030 /usr/include/SDL2/SDL_config.h
+	<SDL2/_real_SDL_config.h>
+
+1738131858 /usr/include/SDL2/begin_code.h
+
+1738131858 /usr/include/SDL2/close_code.h
+
+1738131858 /usr/include/SDL2/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1738131858 /usr/include/SDL2/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1738131858 /usr/include/SDL2/SDL_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1738131858 /usr/include/SDL2/SDL_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1738131858 /usr/include/SDL2/SDL_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1738131858 /usr/include/SDL2/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1738131858 /usr/include/SDL2/SDL_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1738131858 /usr/include/SDL2/SDL_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1738131858 /usr/include/SDL2/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1738131858 /usr/include/SDL2/SDL_egl.h
+	<psp2/types.h>
+	<EGL/egl.h>
+	<EGL/eglext.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+	<windows.h>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<kernel/image.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/rglu.c
+	<math.h>
+	"glinc.h"
+	"Shader.h"
+	"FastMath.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/rinit.c
+	"rinit.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<SDL2/SDL.h>
+	"Debug.h"
+	"StringSupport.h"
+	"Types.h"
+
+1794077293 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/screenshot.c
+	<SDL2/SDL.h>
+	"stb_image.h"
+	"stb_image_write.h"
+	"screenshot.h"
+	<windows.h>
+	<sys/mman.h>
+	"Debug.h"
+	"glinc.h"
+	"File.h"
+	"main.h"
+	<unistd.h>
+
+1728801060 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/ThirdParty/stb/stb_image_write.h
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+
+1795351187 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/smixer.c
+	<stdio.h>
+	<string.h>
+	"fquant.h"
+	"soundcmn.h"
+	"soundlow.h"
+	"Debug.h"
+	"SoundStructs.h"
+	"Randy.h"
+	"FastMath.h"
+	"main.h"
+	"Globals.h"
+
+1795351265 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/soundlow.c
+	<string.h>
+	"Switches.h"
+	"Debug.h"
+	"soundlow.h"
+	"File.h"
+	"soundcmn.h"
+	"main.h"
+
+1795350011 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/sstream.c
+	"Debug.h"
+	"File.h"
+	"fqeffect.h"
+	"soundcmn.h"
+	"soundlow.h"
+	"SoundStructs.h"
+	"SpeechEvent.h"
+	"Subtitle.h"
+	"Switches.h"
+	"Types.h"
+	<windows.h>
+	<mmsystem.h>
+	<process.h>
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/texreg.c
+	"glinc.h"
+	<stdio.h>
+	<stdlib.h>
+	"Debug.h"
+	"Memory.h"
+	"Twiddle.h"
+	"prim2d.h"
+	"File.h"
+	"Key.h"
+	"texreg.h"
+	"StatScript.h"
+	"StringSupport.h"
+	"ColPick.h"
+	"render.h"
+	"main.h"
+	"utility.h"
+	"HorseRace.h"
+	"Universe.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/TimeoutTimer.c
+	<SDL2/SDL.h>
+	"TimeoutTimer.h"
+	"utility.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/Titan.c
+	<windows.h>
+	<sys/time.h>
+	<string.h>
+	<stdio.h>
+	<stdarg.h>
+	<time.h>
+	"Types.h"
+	"File.h"
+	"CommandWrap.h"
+
+1728801060 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/TitanInterfaceC.c
+	"TitanInterfaceC.h"
+	"NetworkInterface.h"
+	"Debug.h"
+
+1795351265 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/SDL/utility.c
+	"utility.h"
+	<ctype.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<sys/stat.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_syswm.h>
+	"AIPlayer.h"
+	"Animatic.h"
+	"AutoDownloadMap.h"
+	"AutoLOD.h"
+	"Battle.h"
+	"BigFile.h"
+	"Bounties.h"
+	"BTG.h"
+	"Captaincy.h"
+	"Clouds.h"
+	"ColPick.h"
+	"CommandNetwork.h"
+	"ConsMgr.h"
+	"Damage.h"
+	"Debug.h"
+	"Demo.h"
+	"ETG.h"
+	"FastMath.h"
+	"FEReg.h"
+	"File.h"
+	"font.h"
+	"FontReg.h"
+	"GameChat.h"
+	"GamePick.h"
+	"glinc.h"
+	"Globals.h"
+	"Gun.h"
+	"HorseRace.h"
+	"HS.h"
+	"InfoOverlay.h"
+	"Key.h"
+	"KeyBindings.h"
+	"LaunchMgr.h"
+	"LevelLoad.h"
+	"Light.h"
+	"mainrgn.h"
+	"Memory.h"
+	"mouse.h"
+	"MultiplayerGame.h"
+	"MultiplayerLANGame.h"
+	"Nebulae.h"
+	"NetCheck.h"
+	"NIS.h"
+	"Options.h"
+	"Particle.h"
+	"PiePlate.h"
+	"Ping.h"
+	"PlugScreen.h"
+	"prim3d.h"
+	"Randy.h"
+	"regkey.h"
+	"render.h"
+	"ResearchAPI.h"
+	"ResearchGUI.h"
+	"resource.h"
+	"SaveGame.h"
+	"ScenPick.h"
+	"Select.h"
+	"Sensors.h"
+	"Shader.h"
+	"ShipView.h"
+	"SinglePlayer.h"
+	"SoundEvent.h"
+	"SpaceObj.h"
+	"Stats.h"
+	"StatScript.h"
+	"StringSupport.h"
+	"Subtitle.h"
+	"Tactical.h"
+	"Tactics.h"
+	"Task.h"
+	"TaskBar.h"
+	"Teams.h"
+	"texreg.h"
+	"TitanNet.h"
+	"TradeMgr.h"
+	"Trails.h"
+	"Tutor.h"
+	"Tweak.h"
+	"UIControls.h"
+	"Undo.h"
+	"Universe.h"
+	"UnivUpdate.h"
+	"main.h"
+	"avi.h"
+	<windows.h>
+	<winreg.h>
+	<shellapi.h>
+	<sys/types.h>
+	<sys/mman.h>
+	<unistd.h>
+	<proto/exec.h>
+	<exec/memory.h>
+	<sys/mman.h>
+	<unistd.h>
+	<X11/Xlib.h>
+	<X11/keysym.h>
+	<direct.h>
+	<strings.h>
+	"debugwnd.h"
+
+1792535336 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/fnmatch.c
+	<string.h>
+	<ctype.h>
+	"fnmatch.h"
+
+1788444912 /mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/fnmatch.h
+
+1795350011 source:/mnt/myoldhd/home/peppe/Documents/Programmi_C/Homeworld/src/aros.c
+	<wchar.h>
+	<wctype.h>
+	<stdarg.h>
+	<stdio.h>
+
